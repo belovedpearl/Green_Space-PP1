@@ -279,3 +279,59 @@ header{
     border: 1px solid  rgb(230, 32, 65);
     color: rgb(230, 32, 65); 
 }
+
+/*.............. Contact .................*/
+
+#contact{
+    background-color: white;
+    color: #184E20;
+    height: 180px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+#subsubject{
+    color: #184E20;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+
+#subject{
+    font-size: 110%;
+    width: 40%;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+aside{
+    background-color:white ;
+    border: 3px solid #184E20;
+    color: #184E20;
+    height: 150px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 350px;
+}
+aside > h4{
+    font-size: 130%;
+    font-weight: 900;
+}
+
+.fa-phone, .fa-message{
+    color: rgb(230, 32, 65);
+    font-size: xx-large;
+    margin: 20px 0 5px 0;
+}
+
+#contact1{
+    float: left;
+    margin-left: 270px;
+}
+
+#contact2{
+    float: right;
+    margin-right: 270px;
+}
