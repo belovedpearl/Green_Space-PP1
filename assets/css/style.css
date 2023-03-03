@@ -216,3 +216,65 @@ header{
     margin: 20px;
     font-weight: 900;
 }
+
+/*............. Blog section .............. */
+
+#blog{
+    background-color: #184E20;
+    font-size: 130%;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#blogheader{
+    color: white;
+    margin: 25px;
+    padding-top: 5px;
+}
+
+#blogcontent{
+    display: flex;
+    height: 380px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.bloghighlight{
+    background-color: white;
+    color: #184E20;
+    height: 380px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.blogimage{
+    height: 250px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.bloghighlight h4{
+    margin: 4px;
+}
+
+.readmore{
+    background-color: rgb(230, 32, 65);
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-weight: bold;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.readmore:hover{
+    background-color: white;
+    border: 1px solid  rgb(230, 32, 65);
+    color: rgb(230, 32, 65); 
+}
