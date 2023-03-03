@@ -345,3 +345,73 @@ aside > h4{
     width: 100%;
     height: 250px;
 }
+
+
+/*............ Footer ...........*/
+
+footer{ 
+    background-color: white;
+    color: #184E20;
+    height: 50px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    width: 100%;  
+}
+
+footer label{
+    font-family: Archivo, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+footer #subscribe{
+    border: 2px solid #184E20;
+    border-radius: 10px;
+    font-size: larger;
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    width: 20%; 
+}
+
+footer #subscribebtn{
+    color: white;
+    background-color: rgb(230, 32, 65);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: larger;
+    font-weight: 600;
+    width: 8%;
+    padding: 10px;
+}
+
+footer #subscribebtn:hover{
+    background-color: white;
+    border: 1px solid  rgb(230, 32, 65);
+    color: rgb(230, 32, 65);
+}
+
+footer #sociallinks{
+    text-align: center;
+}
+
+#sociallinks > li{
+    display: inline;
+}
+
+#sociallinks i{
+    color: #184E20;
+    font-size: 200%;
+    margin: 2%;
+    text-align: center; 
+ }
+
+ #copyright{
+    font-size: larger;
+    margin-bottom: 10px;
+ }
+
+ #copyright i{
+    font-size: small;
+    display: block;
+    margin: 0 2px 2px 2px;
+ }
