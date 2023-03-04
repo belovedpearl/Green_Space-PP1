@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,100;1,400&family=Roboto:wght@500;700;900&display=swap');
 
 *{
@@ -12,7 +11,6 @@
 body{
     background-color: white;
 }
-
 
 /*..... Header .....*/
 
@@ -415,3 +413,66 @@ footer #sociallinks{
     display: block;
     margin: 0 2px 2px 2px;
  }
+
+  /*......... Services Page .........*/
+#services{
+    width: 95%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+
+    font-family: Archivo,sans-serif;
+    color: #184E20;
+}
+#servicehead{
+    margin: 10px;
+    background-color: #184E20;
+    color: white;
+}
+#servicehead h2{
+    margin: 10px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: rgb(230, 32, 65);
+}
+#servicehead p{
+    font-size: 130%;
+    line-height: 25px;
+}
+
+#maincontent{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#maincontent .servicelist{
+    flex: 1 0 40%;
+    width: 50%;
+    height: 300px;
+    color: #184E20;
+
+    margin: 20px 0 20px 0;
+    
+    align-content: center;
+    text-align: center;
+    
+}
+
+#maincontent .servicelist > div{
+    margin-top: 80px;
+    float: right;
+    width: 50%;
+}
+
+#maincontent .servicelist div > h3{
+    margin: 20px;
+}
+
+#maincontent .servicelist > img{
+    width: 50%;
+    height: 100%;
+}
+#maincontent .servicelist div > p{
+    margin-bottom: 20px;
+}
