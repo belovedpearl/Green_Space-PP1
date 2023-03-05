@@ -560,3 +560,23 @@ input[type="submit"]:hover {
     color: rgb(230, 32, 65);
     font-weight: 900;
 }
+
+/*------------- Responsiveness on SMALLER Screens----------------- */
+
+@media screen and (max-width: 1200px) {
+    #menu li{
+        margin-left: 50px;
+    }
+    .content1 > p{
+        margin: 0 1px 0 1px;
+    }
+    #blogcontent{
+        height: 450px;
+        margin: 0 auto;
+        width: 95%;
+    } 
+    #maincontent .servicelist div > p{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+ }
