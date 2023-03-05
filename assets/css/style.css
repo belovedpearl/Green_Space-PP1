@@ -644,6 +644,20 @@ input[type="submit"]:hover {
         width: 30%;
     }
 
+
+    #contact-form {
+        height: 80%;
+        width: 70%;
+    }
+    
+    footer #actioncall form #subscribe{
+        width: 30%;
+    }
+
+    footer #actioncall form #subscribebtn{
+        width: 12%;
+    }
+
 }
 
     /*____________ Screens Max-Width 500px ___________*/
