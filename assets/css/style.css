@@ -579,4 +579,96 @@ input[type="submit"]:hover {
         margin-left: 8px;
         margin-right: 8px;
     }
+}
+
+@media screen and (max-width: 800px) {
+
+    #logocontainer #name{
+        margin-top: 18px;
+    }
+        
+    #menu li{
+        margin-left: 10px;
+    }
+
+    #contentbox{
+        height: 100%;
+    }
+
+    #statedlist{
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+        width: 80%;
+    }
+
+    .content1{
+        margin: 0 auto;
+        width: 60%; 
+    }
+
+    .content1 p{
+        margin-bottom: 10px;
+    }
+      
+    #blog{
+        height: 100%;
+    }
+
+    #blogcontent{
+        flex-direction: column;
+        height: 100%;
+    }
+        
+    .bloghighlight{
+        display: flex;
+        height: 300px;
+        width: 95%;
+    }
+
+    .blogimage{
+        height: 250px;
+        margin: 20px;
+        width: 50%;
+    }
+    
+    .bloghighlight > div{
+        padding: 65px;
+    }
+
+    .readmore{
+        width: 30%;
+    }
+        
+    footer #subscribe{
+        width: 30%;
+    }
+
+    footer #subscribebtn{
+        width: 12%;
+    }
+    
+        /* Form */
+    #contact-form {
+        width: 75%;
+    }
+
+    table{
+        margin: 10px 0 10px 0;
+        width: 100%;
+    }
+    
+    textarea{
+        border: 1px solid white;
+        border-radius: 2px;
+        font-size: 120%;
+        margin: 5px 0 5px 0;
+        padding: 2px; 
+    }
+
+    input[type="submit"] {
+        margin-top: 0;
+        padding: 10px 25px 10px 25px;
+    }
+    
  }
