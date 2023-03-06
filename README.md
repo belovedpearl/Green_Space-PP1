@@ -27,11 +27,22 @@
     * [Call Function](#call-function)
 
 * [Future features](#future-features)
-* [Color Schemes](#colour-scheme)
+* [Design Choices](#design-choices)
+   * [Font](#font)
+   * [Color Schemes](#colour-scheme)
 
+* [Accessibility](#accessibility)
 
-    
+* [Technology, Frameworks and Programs](#technology-frameworks-and-programs)
+     * [languages](#languages)
+     * [Frameworks and Programs](#frameworks-and-programs)
 
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Tools](#tools)
+* [Testing](#testing)
+* [Credit](#credits)
+ 
 
 
 
@@ -226,13 +237,164 @@ To aid prompt decision making, intrested users can call to contact the service p
 
  ---
 
-
-## Colour Scheme
+## Design Choices
 
 ---
+
+
+* The design choice was dictated by my ability to use the knowledge gained from the first module of the course. While presenting challenges, it allowed me to achieve a further growth in understanding of the concepts taught better.
+
+* From the start of the program, I aimed to design a website that covers in detail concepts taught in the module and more.
+
+### Font
+
+* Roboto
+    * Evokes a clean and bold style which prompts its readers wanting to act.
+* Archivo
+    * I believe it complements and blends with Roboto font to give a meaning outlook to the design.
+
+
+### Colour Scheme
+
    
    In line with the motive of the website, I have selected a shade of green **(Hex Value = #184E20)** and **White** to complement the green nature attribute that the site promotes.
 
-   I have also used **RGB(230,32,65)** as an **accent** color to especially in places where the users attention are needed
+   I have also used **RGB(230,32,65)** as an **accent** color to especially in places where the users attention is needed.
 
 --- 
+
+## Accessibility
+
+---
+
+I have designed the site to be easily accessible  with links thats connect different page together in order to prompt decision making and to allow for ease of access to information required bt its users.
+
+* Services section
+   
+   This introduces the user to garden standard practices and easy access with links connecting its providers.
+  
+* Contact Us
+
+   This is included to provide easy contact to the providers.
+
+---
+
+## Technology, Frameworks and Programs
+
+---
+
+### Languages
+* HTML
+
+* CSS
+
+### Frameworks and Programs
+
+
+* Balsamiq
+    * Used to create wireframes to plan the project
+
+
+* Github
+    * To store written code
+
+
+* Gitpod
+    * The project was put together using Gitpod development environment. From here, I could commit and push all of my changes to Github throughout the project.
+
+---
+
+## Bugs
+
+---
+
+* Caption Image
+    * I discovered the caption image was not properly placed on smaller screen, it was resolved by resizing and viewing it till I got a properly placed caption image.
+* Text Area on contact form not displaying text
+    * 
+
+
+* "More Service" link on the index page was too close to the content
+
+    * 
+
+---
+
+## Deployment
+
+---
+
+
+* The project was deployed via Github Pages.
+
+The following illustrate the steps I took to deplay my website;
+
+  * Go to the repository for Green Space.
+  * Click on the settings tab and locate the pages tab.
+  * Select to deploy from main branch.
+  * A few minutes later, after refreshing the page, the site was live for viewing.
+
+---
+
+## Tools
+
+---
+
+  *  [Balsamiq Wireframes](https://balsamiq.com/)
+  *  [Resizing Images](https://www.reduceimages.com/)
+  *  [Test for Responsiveness](https://ui.dev/amiresponsive)
+  *  [HTML validator](https://validator.w3.org/)
+  *  [CSS validation]()
+  *  [Contrast checker]()
+  *  [Coolors.co](https://coolors.co/)
+  *  [Learinng more about flex](https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/).
+  *  [W3Schools](https://www.w3schools.com/), [Stack overflow](https://www.slackoverflow.com/) & [Mdn wed docs](https://developer.mozilla.org/en-US/) - Visited several times to correctly learn how to write and style my code.
+
+---
+
+## Testing
+
+---
+
+* Lighthouse results: 
+    * Performance = 100 
+    * Accessibility = 97 
+    * Best Practices = 92
+    * SEO = 90
+
+* I have tested the website across different device like samsung S20, ipads and laptop.
+
+
+---
+
+## Credits
+
+
+* ReadMe layout inspiration from other Code Institute students from #peer-code-review forum and https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#development
+
+* Code institute's template: https://github.com/Code-Institute-Org/gitpod-full-template
+
+* Font Awesome: https://fontawesome.com/
+
+* Fonts: https://fonts.google.com/
+
+* Font pair: 
+
+* Fonts Awesome: https://www.fontawesome.com/
+
+* Automatic Image Slideshow https://youtu.be/FrQR7igd9bs
+
+* Fonts: https://fonts.google.com/
+
+* Map: https://www.embedgooglemap.net/ location Chester
+
+* Images: 
+Images used are from Isostock, Nikon corporation, png tree and png all
+
+<define each pic>
+
+* Content Sources:
+
+As a graduate of Agriculture, I have the understanding about gardening hence I put together all the lines used in illustration with details that I know pertains to each topic.
+
+---
