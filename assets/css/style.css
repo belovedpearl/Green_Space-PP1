@@ -454,7 +454,7 @@ footer #sociallinks{
 #maincontent .servicelist{
     flex: 1 0 40%;
     width: 50%;
-    height: 300px;
+    height: 250px;
     color: #184E20;
 
     margin: 20px 0 20px 0;
@@ -465,7 +465,7 @@ footer #sociallinks{
 }
 
 #maincontent .servicelist > div{
-    margin-top: 80px;
+    margin-top: 0;
     float: right;
     width: 50%;
 }
@@ -476,7 +476,7 @@ footer #sociallinks{
 
 #maincontent .servicelist > img{
     width: 50%;
-    height: 100%;
+    height: 80%;
 }
 #maincontent .servicelist div > p{
     margin-bottom: 20px;
@@ -571,6 +571,10 @@ input[type="submit"]:hover {
 /*____________ Screens Max-Width 1200px ___________*/
 
 @media screen and (max-width: 1200px) {
+    #menu{
+        padding-left: 0;
+    }
+
     #menu li{
         margin-left: 50px;
     }
@@ -702,11 +706,12 @@ input[type="submit"]:hover {
 
         #brandCall{
             border-radius: 40px; 
-            font-size: 150;
+            font-size: 100;
             height: 280px;
             padding: 40px 0 0 15px;
             right: 0;
-            width: 350px; 
+            width: 330px; 
+            
         }
 
         #brandCall #quote{
