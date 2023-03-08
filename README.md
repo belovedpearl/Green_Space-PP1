@@ -230,9 +230,21 @@ To aid prompt decision making, intrested users can call to contact the service p
 
 ---
 
- * I will like to include a live chat menu where users can get to sort whatever queries they have.
+ * A thank you message on submission of "enquiry form".
+
+ * A notification that "Submitted emails have been recieved and will get newsletters from the time of subscription"
+
+ * A testimonial page where the service providers allow people to register their comments about the platform.
+
+ * A gallery page to promote beauty that gardening bestows on the environment.
+
+ * I will like to include a live chat menu where users can get to sort whatever 
+ queries they have.
+
  * A pop-up message on clicking 'Get Quote' which asks users questions that pertains to the services they require and provides an estimate quote for the required service.
+
  * On clicking the **Get Started** link, users will be provided a list of relevant service providers for easy contact.
+
  * A search menu that an provide a short way of navigating through the site.
 
  ---
@@ -311,12 +323,15 @@ I have designed the site to be easily accessible  with links thats connect diffe
 * Caption Image
     * I discovered the caption image was not properly placed on smaller screen, it was resolved by resizing and viewing it till I got a properly placed caption image.
 * Text Area on contact form not displaying text
+   
     * 
 
 
 * "More Service" link on the index page was too close to the content
 
-    * 
+    * Adding padding, height and centering text to the div fixed this.
+
+* Footer on service page was not properly presented, looking through the html code, I realised a wrong id was inserted.
 
 ---
 
