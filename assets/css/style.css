@@ -176,9 +176,9 @@ header{
 }
 
 .content1{
-    font-family: Archivo,sans-serif;
     border: 2px solid #184E20;
     color: #184E20;
+    font-family: Archivo,sans-serif;
     height: 380px;
     margin: 10px;
     text-align: center; 
@@ -377,14 +377,14 @@ footer #subscribe{
 }
 
 footer #subscribebtn{
-    color: white;
     background-color: rgb(230, 32, 65);
     border-radius: 10px;
+    color: white;
     display: inline-block;
     font-size: larger;
     font-weight: 600;
-    width: 8%;
     padding: 10px;
+    width: 8%;
 }
 
 footer #subscribebtn:hover{
@@ -421,52 +421,52 @@ footer #sociallinks{
 
   /*......... Services Page .........*/
 #services{
-    width: 95%;
-    height: auto;
-    text-align: center;
-    margin: 0 auto;
-
-    font-family: Archivo,sans-serif;
     color: #184E20;
+    font-family: Archivo,sans-serif;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
 }
+
 #servicehead{
-    margin: 10px;
     background-color: #184E20;
     color: white;
-}
-#servicehead h2{
     margin: 10px;
+}
+
+#servicehead h2{
+    color: rgb(230, 32, 65);
     font-weight: 900;
     letter-spacing: 4px;
-    color: rgb(230, 32, 65);
+    margin: 10px;
 }
+
 #servicehead p{
     font-size: 130%;
     line-height: 25px;
 }
 
 #maincontent{
-    width: 95%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
+    width: 95%; 
 }
-#maincontent .servicelist{
-    flex: 1 0 40%;
-    width: 50%;
-    height: 250px;
-    color: #184E20;
 
-    margin: 20px 0 20px 0;
-    
+#maincontent .servicelist{
     align-content: center;
+    color: #184E20;
+    flex: 1 0 40%;
+    height: 250px;
+    margin: 20px 0 20px 0;
     text-align: center;
-    
+    width: 50%;
 }
 
 #maincontent .servicelist > div{
-    margin-top: 0;
     float: right;
+    margin-top: 0;
     width: 50%;
 }
 
@@ -475,9 +475,10 @@ footer #sociallinks{
 }
 
 #maincontent .servicelist > img{
-    width: 50%;
     height: 80%;
+    width: 50%;
 }
+
 #maincontent .servicelist div > p{
     margin-bottom: 20px;
 }
@@ -705,15 +706,25 @@ input[type="submit"]:hover {
             font-size: 120%;
             padding: 3px;
         }
-
+        
+        #image-cont{
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 100%;
+        }
+        
         #brandCall{
-            border-radius: 40px; 
-            font-size: 100;
+            border-radius: 32%;
+            font-size: 140%;
             height: 280px;
-            padding: 40px 0 0 15px;
+            left: 5px;
+            margin-top: 180px;
+            padding: 13px 10px 1px 12px;
+            position: relative;
             right: 0;
-            width: 330px; 
-            
+            text-align: center;
+            width: 300px;   
         }
 
         #brandCall #quote{
