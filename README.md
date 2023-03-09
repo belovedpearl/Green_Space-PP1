@@ -12,7 +12,7 @@
    
 * [WireFrames](#wireframes)
     * [Initial Wireframes](#initial-wireframes)
-       * [Wireframe 1](#wireframe-1-the-landing-page)
+       * [Wireframe 1](#wireframe-1-the-index-page)
        * [Wireframe 2](#wireframe-2-services-page)
        * [Wireframe 3](#wireframe-3-contact-page)
     * [Device Wireframes](#device-wireframe)
@@ -118,20 +118,35 @@ All wireframes are made with Balsamiq
 The main page presents some of the basic service its users can have access to with others stated on the services page and it also highlights the services provided, an update section, contact section, location map and social media links. For ease of access, the main page has links that connects with the contact page to allow the user access the providers easily.
 
 ##### Wireframe 1: The landing page
- ![question-1](Wireframes/question-1.png)
+
+
+ ![Display-1](assets/wireframes/greenspace1.webp)
+
+
 ##### Wireframe 2: Services Page
-![question-2](Wireframes/question-2.png)
+
+
+![Display-2](assets/wireframes/services.webp)
+
+
 ##### Wireframe 3: Contact Page
-![question-3](Wireframes/question-3.png)
-##### Wireframe 4: Thank You page
-![question-4](Wireframes/question-4.png)
+
+
+![Display-3](assets/wireframes/contact-page.webp)
+
 
 
 ---
 
 ### Device Wireframe
 
-Presenting the information on the site will be in the following ways;
+Presention of information on the site will be in the following ways;
+
+![Desktop and Laptop](assets/wireframes/desktop%26laptop.webp)
+
+
+
+![Tablets and Mobile](assets/wireframes/tablets%26mobile.webp)
 
 
 
