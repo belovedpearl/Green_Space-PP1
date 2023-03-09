@@ -15,8 +15,10 @@
        * [Wireframe 1](#wireframe-1-the-index-page)
        * [Wireframe 2](#wireframe-2-services-page)
        * [Wireframe 3](#wireframe-3-contact-page)
+
     * [Device Wireframes](#device-wireframe)
-       
+       * [Wireframe 4](#wireframe-4-desktop-and-laptop)
+       * [Wireframe 5](#wireframe-5-tablets-and-mobile)
 * [Features](#features)
     * [Header](#header)
     * [Blog](#blog)
@@ -142,9 +144,11 @@ The main page presents some of the basic service its users can have access to wi
 
 Presention of information on the site will be in the following ways;
 
+##### Wireframe 4: Desktop and Laptop
+
 ![Desktop and Laptop](assets/wireframes/desktop%26laptop.webp)
 
-
+##### Wireframe 5: Tablets and Mobile
 
 ![Tablets and Mobile](assets/wireframes/tablets%26mobile.webp)
 
