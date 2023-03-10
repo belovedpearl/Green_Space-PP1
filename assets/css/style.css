@@ -37,6 +37,8 @@ header{
 }
 
 #logo{
+    background-image: url(../images/gar-denlogo1.webp);
+    background-repeat: no-repeat;
     float: left;
     height: 250px;
     margin-left: 30px;
