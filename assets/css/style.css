@@ -78,16 +78,16 @@ header{
 }
 
 #slide1{
-    background-image: url(../images/slide01.webp);
+    background-image: url("../images/slide01.webp");
 }
 #slide2{
-    background-image: url(../images/manwork.webp);
+    background-image: url("../images/manwork.webp");
 }
 #slide3{
-    background-image: url(../images/summerpark-2.webp);
+    background-image: url("../images/summerpark-2.webp");
 }
 #slide4{
-    background-image: url(../images/naturefeel.webp);
+    background-image: url("../images/naturefeel.webp");
 }
 
 #image-cont #slides > div {
@@ -186,13 +186,13 @@ header{
 }
 
 #contentbox #statedlist .content1 #image1{
-    background-image: url(../images/slide2.webp);
+    background-image: url("../images/slide2.webp");
 }
 #contentbox #statedlist .content1 #image2{
-    background-image: url(../images/mulch.webp);
+    background-image: url("../images/mulch.webp");
 }
 #contentbox #statedlist .content1 #image3{
-    background-image: url(../images/gallery4.webp);
+    background-image: url("../images/gallery4.webp");
 }
 #contentbox #statedlist .content1 .image{
     background-size: cover;
@@ -521,22 +521,22 @@ footer #sociallinks{
 }
 
 #maincontent .servicelist #serImage1{
-    background-image: url(../images/slide2.webp);
+    background-image: url("../images/slide2.webp");
 }
 #maincontent .servicelist #serImage2{
-    background-image: url(../images/mulch.webp);
+    background-image: url("../images/mulch.webp");
 }
 #maincontent .servicelist #serImage3{
-    background-image: url(../images/slide3.webp);
+    background-image: url("../images/slide3.webp");
 }
 #maincontent .servicelist #serImage4{
-    background-image: url(../images/gallery4.webp);
+    background-image: url("../images/gallery4.webp");
 }
 #maincontent .servicelist #serImage5{
-    background-image: url(../images/sed1.webp);
+    background-image: url("../images/sed1.webp");
 }
 #maincontent .servicelist #serImage6{
-    background-image: url(../images/sales1.webp);
+    background-image: url("../images/sales1.webp");
 }
 
 #maincontent .servicelist .servicePic{
