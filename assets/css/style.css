@@ -39,8 +39,11 @@ header{
 #logo{
     background-image: url(../images/gar-denlogo1.webp);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     float: left;
     height: 250px;
+    margin-top: 50px;
     margin-left: 30px;
     width: 40%;
 }
@@ -657,8 +660,7 @@ input[type="submit"]:hover {
         width: 95%;
     } 
     #maincontent .servicelist div > p{
-        margin-left: 8px;
-        margin-right: 8px;
+        margin: 10px;
     }
 }
 
@@ -666,12 +668,16 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 800px) {
 
-    #logocontainer #name{
+    #logocontainer{
         margin-top: 18px;
+    }
+
+    #logo{
+        width: 50%;
     }
         
     #menu li{
-        margin-left: 2px;
+        margin-left: 0;
     }
 
     #contentbox{
@@ -693,7 +699,7 @@ input[type="submit"]:hover {
     .content1 p{
         margin-bottom: 10px;
     }
-      
+    
     #blog{
         height: 100%;
     }
@@ -705,15 +711,16 @@ input[type="submit"]:hover {
         
     .bloghighlight{
         display: flex;
-        height: 300px;
+        height: 250px;
         width: 95%;
     }
 
-    .blogimage{
+    .blogImage{
         height: 250px;
-        margin: 20px;
+        margin-bottom: 0;
         width: 50%;
     }
+    
     
     .bloghighlight > div{
         padding: 65px;
@@ -722,7 +729,10 @@ input[type="submit"]:hover {
     .readmore{
         width: 30%;
     }
-
+    
+    #maincontent .servicelist .bedContent{
+        line-height: 17px;
+    }
 
     #contact-form {
         height: 80%;
@@ -750,6 +760,7 @@ input[type="submit"]:hover {
 
         #logocontainer{
             height: 120px;
+            margin: 0;
             overflow: hidden;
             width: 100%;
         }
@@ -757,11 +768,12 @@ input[type="submit"]:hover {
         #logo{
             float: none;
             height: 170px;
-            width: 70%; 
+            margin-top: 0;
+            width: 70%;
         }
 
         #menu{
-            margin-top: 3px;
+            margin-top: 0;
             padding-left: 0;
         }
 
@@ -808,13 +820,12 @@ input[type="submit"]:hover {
             height: 380px;
             width: 80%;
         }
-
+       
         #contentbox #statedlist .content1 .image{
+            background-repeat: no-repeat;
             height: 200px;
-            width: 100%;
-            
         }
-
+        
         .content1 > p{
             font-size: 100%;
             margin: 0 3px 0 3px;
@@ -842,14 +853,14 @@ input[type="submit"]:hover {
             padding: 0;
          }
 
-         .blogimage{
-            width: 50%;
+        .blogImage{
+            width: 80%;
             height: 200px;
             margin: 0;
         }
 
         .bloghighlight h4{
-            margin: 4px;
+            margin: 5px;
         }
 
         .readmore{
