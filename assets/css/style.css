@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,100;1,400&family=Roboto:wght@500;700;900&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,100;1,400&family=Roboto:wght@500;700;900&display=swap';
 
 *{
     border: none;
@@ -500,14 +500,14 @@ footer #sociallinks{
 #maincontent .servicelist{
     align-content: center;
     color: #184E20;
-    flex: 1 0 40%;
-    height: 250px;
-    margin: 20px 0 20px 0;
+    display: flex;
+    height: 200px;
+    margin: 20px 0 10px 0;
     text-align: center;
     width: 50%;
 }
 
-#maincontent .servicelist > div{
+#maincontent .servicelist .bedContent{
     float: right;
     margin-top: 0;
     width: 50%;
@@ -517,12 +517,36 @@ footer #sociallinks{
     margin: 20px;
 }
 
-#maincontent .servicelist > img{
-    height: 80%;
+#maincontent .servicelist #serImage1{
+    background-image: url(../images/slide2.webp);
+}
+#maincontent .servicelist #serImage2{
+    background-image: url(../images/mulch.webp);
+}
+#maincontent .servicelist #serImage3{
+    background-image: url(../images/slide3.webp);
+}
+#maincontent .servicelist #serImage4{
+    background-image: url(../images/gallery4.webp);
+}
+#maincontent .servicelist #serImage5{
+    background-image: url(../images/sed1.webp);
+}
+#maincontent .servicelist #serImage6{
+    background-image: url(../images/sales1.webp);
+}
+
+#maincontent .servicelist .servicePic{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    object-fit: cover;
     width: 50%;
 }
 
 #maincontent .servicelist div > p{
+    padding: 0 10px 0 10px;
     margin-bottom: 20px;
 }
 
