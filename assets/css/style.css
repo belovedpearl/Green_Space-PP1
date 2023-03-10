@@ -64,11 +64,25 @@ header{
  /*..... Brand Caption and Hero Slides Images .....*/
  
  /*. Hero Slides .*/
+
  #image-cont{
     height: 350px;
     overflow: hidden;
     position: relative;
     width: 100%;
+}
+
+#slide1{
+    background-image: url(../images/slide01.webp);
+}
+#slide2{
+    background-image: url(../images/manwork.webp);
+}
+#slide3{
+    background-image: url(../images/summerpark-2.webp);
+}
+#slide4{
+    background-image: url(../images/naturefeel.webp);
 }
 
 #image-cont #slides > div {
@@ -77,10 +91,12 @@ header{
     background-size: cover;
     height: 100%;
     opacity: 0;
+    object-fit: cover;
     position: absolute;
     -webkit-background-size: cover;
     width: 100%;
 }
+
 /** Animation from https://youtu.be/FrQR7igd9bs with my modification **/
 
 #image-cont #slides > div:nth-child(2){
@@ -164,8 +180,20 @@ header{
     margin: 25px;
 }
 
+#contentbox #statedlist .content1 #image1{
+    background-image: url(../images/slide2.webp);
+}
+#contentbox #statedlist .content1 #image2{
+    background-image: url(../images/mulch.webp);
+}
+#contentbox #statedlist .content1 #image3{
+    background-image: url(../images/gallery4.webp);
+}
 #contentbox #statedlist .content1 .image{
+    background-size: cover;
+    background-position: center;
     height: 180px;
+    object-fit: cover;
     width: 100%;
 }
 
@@ -254,8 +282,21 @@ header{
     width: 100%;
 }
 
-.blogimage{
+#blogImage1{
+    background-image: url(../images/justgarden.webp);
+}
+#blogImage2{
+    background-image: url(../images/watering.webp);
+}
+#blogImage3{
+    background-image: url(../images/madeup.webp);
+}
+
+.blogImage{
+    background-size: cover;
+    background-position: center;
     height: 250px;
+    object-fit: cover;
     margin-bottom: 10px;
     width: 100%;
 }
