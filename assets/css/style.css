@@ -37,13 +37,13 @@ header{
 }
 
 #logo{
-    background-image: url(../images/gar-denlogo1.webp);
+    background-image: url("../images/gar-denlogo1.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     float: left;
     height: 250px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 30px;
     width: 40%;
 }
@@ -288,13 +288,13 @@ header{
 }
 
 #blogImage1{
-    background-image: url(../images/justgarden.webp);
+    background-image: url("../images/justgarden.webp");
 }
 #blogImage2{
-    background-image: url(../images/watering.webp);
+    background-image: url("../images/watering.webp");
 }
 #blogImage3{
-    background-image: url(../images/madeup.webp);
+    background-image: url("../images/madeup.webp");
 }
 
 .blogImage{
