@@ -164,13 +164,23 @@ The website is made up of 3 pages;
 
   * Home Page
 
-<pic>
+The following illustrate an overview of the homepage;
 
-  The homepage displays a slides of picture that shows a range of green environment with the aim of captivating its users with the beauty of nature when we keep our garden green. It also consist of an overlayed caption that further empasizes the importance of gardening.
+![Homepage-1](assets/sitesample/homepage1.webp)
+
+![Homepage-2](assets/sitesample/homepage2.webp)
+
+![Homepage-3](assets/sitesample/homepage3.webp)
+
+![Homepage-4](assets/sitesample/homepage4.webp)
+
+![Homepage-5](assets/sitesample/homepage5.webp)
+
+  The homepage displays a slides of picture that shows a range of green environment aimed at educating its users about the beauty of nature when we keep our garden green. It also consist of an overlayed caption that further empasizes the importance of gardening.
 
   It highlights a list of some services its users can access with a link to access more services on the service page and it also contains the blog section which holds garden updates where users can get the current trends in garden practice.
   
-  Each service section is made to link differnt service providers of which the user can access and get the services required. 
+  Each service section is made to link the service providers through which the user can access and the services required. 
 
   * Services Page
 
@@ -289,7 +299,14 @@ To aid prompt decision making, intrested users can call to contact the service p
 
    
    In line with the motive of the website, I have selected a shade of green **(Hex Value = #184E20)** and **White** to complement the green nature attribute that the site promotes.
+   I have checked the contrast of both colors use as foreground and background. Contrast result gave the following;
 
+   |Foreground | Background | Contrast Ratio | Comment |
+   |-----------|------------|----------------|---------|
+   | #184E20   |  White     | 9.76 : 1       |  Pass   |
+   | White     |  #184E20   | 9.76 : 1       |  Pass   |
+
+   
    I have also used **RGB(230,32,65)** as an **accent** color to especially in places where the users attention is needed.
 
 --- 
