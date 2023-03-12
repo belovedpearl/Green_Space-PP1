@@ -358,9 +358,9 @@ I have designed the site to be easily accessible  with links thats connect diffe
 
 * Caption Image
     * I discovered the caption image was not properly placed on smaller screen, it was resolved by resizing and viewing it till I got a properly placed caption image.
-* Text Area on contact form not displaying text
-   
-    * 
+* Input on contact form not displaying text
+    * Using the dev tool, I realised "Color: white" set on the input caused the bug. Removing the color fixed the bug.
+*  Images appeared smaller than I intend, changing background size contain to cover fixed it.
 
 
 * "More Service" link on the index page was too close to the content
