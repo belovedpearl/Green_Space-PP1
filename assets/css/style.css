@@ -45,6 +45,7 @@ header{
     height: 250px;
     margin-top: 10px;
     margin-left: 30px;
+    object-fit: contain;
     width: 40%;
 }
 
@@ -75,6 +76,7 @@ header{
     overflow: hidden;
     position: relative;
     width: 100%;
+    object-fit: contain;
 }
 
 #slide1{
@@ -96,7 +98,7 @@ header{
     background-size: cover;
     height: 100%;
     opacity: 0;
-    object-fit: cover;
+    object-fit: contain;
     position: absolute;
     -webkit-background-size: cover;
     width: 100%;
@@ -198,7 +200,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 180px;
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
 }
 
@@ -301,7 +303,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 250px;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 10px;
     width: 100%;
 }
@@ -334,7 +336,7 @@ header{
 #contact{
     background-color: white;
     color: #184E20;
-    height: 180px;
+    height: 150px;
     margin-top: 30px;
     padding: 20px;
     width: 100%;
@@ -350,7 +352,7 @@ header{
 #subject{
     font-size: 110%;
     width: 40%;
-    padding: 20px;
+    padding: 10px;
     margin-left: 20px;
 }
 
@@ -540,11 +542,11 @@ footer #sociallinks{
 }
 
 #maincontent .servicelist .servicePic{
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
-    object-fit: cover;
+    height: 200px;
+    object-fit: contain;
     width: 50%;
 }
 
@@ -561,6 +563,7 @@ footer #sociallinks{
     background-size: cover;
     background-position: center; 
     display: flex;
+    font-family: Roboto, sans-serif;
     height: 800px;
     justify-content: center;
     margin: 0 auto;
@@ -586,8 +589,8 @@ footer #sociallinks{
 .text-input {
     border: 1px solid white;
     border-radius: 2px;
-    color: white;
     display: block;
+    font-family: Archivo, sans-serif;
     font-size: 120%;
     height: 35px;
     margin: 5px 0 20px 0;
@@ -600,18 +603,21 @@ footer #sociallinks{
 }
 
 table{
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0; 
 }
 
+th{
+    text-align: left;
+}
 td {
-    font-size: 110%;
-    padding-right: 10px;
+    font-family: Archivo,sans-serif;
+    font-size: 100%;
+    padding-top: 10px;
 }
 
 #message{
     border: 1px solid white;
     border-radius: 2px;
-    color: white;
     display: block;
     font-size: 120%;
     margin: 5px 0 0 0;
@@ -669,7 +675,8 @@ input[type="submit"]:hover {
 @media screen and (max-width: 800px) {
 
     #logocontainer{
-        margin-top: 18px;
+        margin-top: 0;
+        width: 40%;
     }
 
     #logo{
@@ -677,7 +684,7 @@ input[type="submit"]:hover {
     }
         
     #menu li{
-        margin-left: 0;
+        margin-left: 10px;
     }
 
     #contentbox{
@@ -729,11 +736,11 @@ input[type="submit"]:hover {
     .readmore{
         width: 30%;
     }
-    
-    #maincontent .servicelist .bedContent{
-        line-height: 17px;
-    }
 
+    #maincontent .servicelist div > h3{
+        margin: 10px;
+    }
+    
     #contact-form {
         height: 80%;
         width: 70%;
@@ -877,16 +884,17 @@ input[type="submit"]:hover {
         border: 2px solid #184E20;
         display: flex;
         flex-direction: column;
+        height: auto;
         padding: 3px;
         width: 100%;
     }
 
-    #maincontent .servicelist > div{
+    #maincontent .servicelist .bedContent{
         margin-top: 0;
         width: 100%;
     }
     
-    #maincontent .servicelist > img{
+    #maincontent .servicelist .servicePic{
         width: 100%;
     }
           /* Form */
@@ -897,7 +905,7 @@ input[type="submit"]:hover {
     }
 
     #contact-form {
-        height: 90%;
+        height: 95%;
         width: 75%;
     }
 
