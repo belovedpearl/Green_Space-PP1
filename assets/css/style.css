@@ -557,7 +557,8 @@ footer #sociallinks{
 
 /*......... Form..........*/
 
-#form-section {
+#form-section,
+#thanks-section {
     align-items: center;
     background-image: url("../images/slide11.webp"); 
     background-size: cover;
@@ -570,7 +571,8 @@ footer #sociallinks{
     width: 95%;    
 }
 
-#contact-form {
+#contact-form,
+#thank-you {
     background-color: #184E20;
     color: white;
     height: 80%;
@@ -641,6 +643,29 @@ input[type="submit"]:hover {
     background-color: white;
     color: rgb(230, 32, 65);
     font-weight: 900;
+}
+
+/*______________ Thank You Page ______________*/
+
+#thanks-section{
+    height: 400px;
+}
+
+#thank-you{
+    font-size: 150%;
+    height: 90%;
+    padding: 2px;
+    text-align: center;
+    width: 30%;
+}
+
+#thanks,
+#assure{
+    margin-bottom: 40px;
+}
+
+#back{
+    margin: 0 auto;
 }
 
 
@@ -752,6 +777,10 @@ input[type="submit"]:hover {
 
     footer #actioncall form #subscribebtn{
         width: 12%;
+    }
+
+    #thank-you{
+        width: 50%;
     }
 
 }
@@ -968,7 +997,10 @@ input[type="submit"]:hover {
         width: 30%;
         padding: 8px;
     }
-        
+    #thank-you{
+        font-size: 130%;
+        width: 70%;
+    } 
 }
     
 
