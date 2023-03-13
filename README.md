@@ -254,7 +254,7 @@ Users can specify service required on the form by ticking one or more of the che
 To aid prompt decision making, intrested users can call to contact the service providers without having to wait more minutes to decide.
 
 ---
-
+ 
 ## Future Features
 
 ---
@@ -381,9 +381,10 @@ I have designed the site to be easily accessible  with links thats connect diffe
 The following illustrate the steps I took to deplay my website;
 
   * Go to the repository for Green Space.
-  * Click on the settings tab and locate the pages tab.
-  * Select to deploy from main branch.
-  * A few minutes later, after refreshing the page, the site was live for viewing.
+  * Click on the "Settings" tab, locate the "Pages" tab and click it.
+  * In the "Build and Deployment" section there is a "Branch Heading". Select to deploy from "main" branch in the dropdown option.
+  * Click on save
+  * A few minutes later, after refreshing the page, there will automatically be an update containing the "live site link".
 
 ---
 
@@ -393,11 +394,13 @@ The following illustrate the steps I took to deplay my website;
 
   *  [Balsamiq Wireframes](https://balsamiq.com/)
   *  [Resizing Images](https://www.reduceimages.com/)
+  *  [Reducing Images size](https://tinypng.com/)
   *  [Test for Responsiveness](https://ui.dev/amiresponsive)
   *  [HTML validator](https://validator.w3.org/)
-  *  [CSS validation]()
-  *  [Contrast checker]()
+  *  [CSS validation](https://jigsaw.w3.org/)
+  *  [Contrast checker](https://dequeuniversity.com/)
   *  [Coolors.co](https://coolors.co/)
+  *  [Responsiveness Testing](https://ui.dev/amiresponsive)
   *  [Learinng more about flex](https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/).
   *  [W3Schools](https://www.w3schools.com/), [Stack overflow](https://www.slackoverflow.com/) & [Mdn wed docs](https://developer.mozilla.org/en-US/) - Visited several times to correctly learn how to write and style my code.
 
@@ -407,7 +410,19 @@ The following illustrate the steps I took to deplay my website;
 
 ---
 
-* Lighthouse results: 
+* Home Page
+    * Performance = 100 
+    * Accessibility = 97 
+    * Best Practices = 92
+    * SEO = 90
+
+* Service Page: 
+    * Performance = 100 
+    * Accessibility = 97 
+    * Best Practices = 92
+    * SEO = 90
+
+* Contact Page
     * Performance = 100 
     * Accessibility = 97 
     * Best Practices = 92
@@ -420,7 +435,7 @@ The following illustrate the steps I took to deplay my website;
 
 ## Credits
 
-
+* My Mentor for the support he provided during the buildup of the project.
 * ReadMe layout inspiration from other Code Institute students from #peer-code-review forum and https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#development
 
 * Code institute's template: https://github.com/Code-Institute-Org/gitpod-full-template
@@ -429,7 +444,7 @@ The following illustrate the steps I took to deplay my website;
 
 * Fonts: https://fonts.google.com/
 
-* Font pair: 
+* Font pair: https://fontpair.com/ 
 
 * Fonts Awesome: https://www.fontawesome.com/
 
