@@ -160,7 +160,7 @@ Presention of information on the site will be in the following ways;
 
 ---
 
-The website is made up of 3 pages;
+The website is made up of 4 pages;
 
   * Home Page
 
@@ -195,6 +195,8 @@ The following illustrate an overview of the homepage;
     <pic>
 
    As a way to build confidence in the site for standard practices, the contact details of the site owners are included. Users will have options to contact in case they are having delays in getting feedback from their preferred service providers.
+
+   * Response Page on Submission of Enquiry
 
 ---
 
@@ -259,7 +261,7 @@ To aid prompt decision making, intrested users can call to contact the service p
 
 ---
 
- * A thank you message on submission of "enquiry form".
+ * I will like to add a response page after users submit their emails for newsletter subscription or use javasript to pop up a message that users have been registered for subscription.
 
  * A notification that "Submitted emails have been recieved and will get newsletters from the time of subscription"
 
