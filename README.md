@@ -27,6 +27,7 @@
     * [Social Media Links](#social-media-links)
     * [Checkboxes](#checkboxes)
     * [Call Function](#call-function)
+    * [Submit form](#submit-form)
 
 * [Future features](#future-features)
 * [Design Choices](#design-choices)
@@ -106,6 +107,8 @@
 
 Target audience for this project are **garden lovers** who understand the need to keep plant around them **green** all year **round** by using the right hands for services and staying connected to latest updates to garden. 
 
+It also targets people who like to know more about gardening.
+
 ---
 
 ## Wireframes
@@ -148,6 +151,7 @@ Presention of information on the site will be in the following ways;
 
 ![Desktop and Laptop](assets/wireframes/desktop%26laptop.webp)
 
+
 ##### Wireframe 5: Tablets and Mobile
 
 ![Tablets and Mobile](assets/wireframes/tablets%26mobile.webp)
@@ -164,46 +168,47 @@ The website is made up of 4 pages;
 
   * Home Page
 
-The following illustrate an overview of the homepage;
+  The homepage displays a slides of picture that shows a range of green environment aimed at educating its users about the beauty of nature when we keep our garden green. It also consist of an overlayed caption that further empasizes the importance of gardening and a link for contact to use the service.
 
-![Homepage-1](assets/sitesample/homepage1.webp)
+  ![Contact](assets/sitefeatures/contact1.webp)
+ 
 
-![Homepage-2](assets/sitesample/homepage2.webp)
-
-![Homepage-3](assets/sitesample/homepage3.webp)
-
-![Homepage-4](assets/sitesample/homepage4.webp)
-
-![Homepage-5](assets/sitesample/homepage5.webp)
-
-  The homepage displays a slides of picture that shows a range of green environment aimed at educating its users about the beauty of nature when we keep our garden green. It also consist of an overlayed caption that further empasizes the importance of gardening.
-
-  It highlights a list of some services its users can access with a link to access more services on the service page and it also contains the blog section which holds garden updates where users can get the current trends in garden practice.
+  It highlights a list of some services its users can access with a link to access more services on the service page 
+  
+   ![More Services](assets/sitefeatures/moreservice.webp)
+ 
+   The homepage also contains the blog section which holds garden updates where users can get the current trends in garden practice.
   
   Each service section is made to link the service providers through which the user can access and the services required. 
 
+  ![Get Started](assets/sitefeatures/getstarted.webp)
+    
+
   * Services Page
 
-  <pic>
+   This further highlights more services users can have access to from the page and with a link to contact the service providers.
 
-
-   This further highlights the services users can have access to from the page and with a link to access the list of service providers.
+   ![Service](assets/sitefeatures/servicep.webp)
  
 
   * Contact Page
 
-    <pic>
+   As a way to build  interaction and promote communication, users can contactm the providers and feedback on the requested service will be provided. To contact the providers, users can either use the link or go through the navigation links provided.
 
-   As a way to build confidence in the site for standard practices, the contact details of the site owners are included. Users will have options to contact in case they are having delays in getting feedback from their preferred service providers.
-
+   ![Contact](assets/sitefeatures/contactform.webp)
+   
    * Response Page on Submission of Enquiry
+
+   As a way to improve users experience, on submitting the enquiry form, users get notified with a message assuring them that they will be contacted with details of their requested service.
+
+   ![Response](assets/sitefeatures/thanks.webp)
 
 ---
 
 #### Header
 
-<pic>
 
+![Header](assets/sitefeatures/Header.webp)
 
 Across all pages, the header features the website's name and logo along with the navigation links to connect other pages. The header displays uniformly across all the pages.
 
@@ -212,17 +217,17 @@ Across all pages, the header features the website's name and logo along with the
 
  #### Blog
 
- <pic>
-
  
-As part of the aim of this site, this is a section aimed for garden updates where users can get the current trends in garden practice therby promoting healthy practice among garden lovers.
+![Blog](assets/sitefeatures/blog.webp)
+ 
+As part of the aim of this site, this is a section aimed for garden updates where users can get the current trends in garden practice therby promoting healthy practice among garden lovers. With an external link, it reference the page update and keep user connected to the main page.
 
 
 ---
 
  #### Footer
 
-<pic>
+![Footer](assets/sitefeatures/footer.webp)
 
 The footer features 3 sections;
    * A section to register for newsletters on gardening.
@@ -235,9 +240,14 @@ The footer features 3 sections;
 
 This allows intrested users to subscribe to the site's monthly newsletter. It requires an email address before a submission can be done.
 
+![Footer](assets/sitefeatures/newslettersub.webp)
+
 ---
 
 ### Social Media Links
+
+
+![Footer](assets/sitefeatures/footermedia.webp)
 
 
 This features links to stay connected with the service  across different social platforms.
@@ -249,11 +259,22 @@ This features links to stay connected with the service  across different social 
 
 Users can specify service required on the form by ticking one or more of the checkbox available.
  
+ ![Checkbox](assets/sitefeatures/checkboxes.webp)
 ---
 
 ### Call function
 
 To aid prompt decision making, intrested users can call to contact the service providers without having to wait more minutes to decide.
+
+![Call Function](assets/sitefeatures/call.webp)
+
+---
+
+### Submit form
+
+With a click on a button, user can submit their request.
+
+![Contact](assets/sitefeatures/submitform.webp)
 
 ---
  
@@ -413,22 +434,28 @@ The following illustrate the steps I took to deplay my website;
 ---
 
 * Home Page
-    * Performance = 100 
+    * Performance = 64
     * Accessibility = 97 
     * Best Practices = 92
-    * SEO = 90
+    * SEO = 99
 
 * Service Page: 
-    * Performance = 100 
-    * Accessibility = 97 
+    * Performance = 96 
+    * Accessibility = 95
     * Best Practices = 92
-    * SEO = 90
+    * SEO = 98
 
 * Contact Page
-    * Performance = 100 
-    * Accessibility = 97 
+    * Performance = 94
+    * Accessibility = 98 
     * Best Practices = 92
-    * SEO = 90
+    * SEO = 99
+
+* Response Page: 
+    * Performance = 93 
+    * Accessibility = 100 
+    * Best Practices = 100
+    * SEO = 98
 
 * I have tested the website across different device like samsung S20, ipads and laptop.
 
@@ -459,7 +486,6 @@ The following illustrate the steps I took to deplay my website;
 * Images: 
 Images used are from Isostock, Nikon corporation, png tree and png all
 
-<define each pic>
 
 * Content Sources:
 
