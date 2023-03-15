@@ -434,10 +434,10 @@ The following illustrate the steps I took to deplay my website;
 ---
 
 * Home Page
-    * Performance = 64
+    * Performance = 93
     * Accessibility = 97 
     * Best Practices = 92
-    * SEO = 99
+    * SEO = 100
 
 * Service Page: 
     * Performance = 96 
