@@ -503,16 +503,16 @@ On all html pages, some issues were found during the check over [W3C Validator c
  Functional testing performed for every action within the website. If the behavior is the same as the expected behavior, it will be marked with P for pass, if not F for fail. 
 
   
-| Action (CLICK) | Expected Behavior    | Actual Behavior    |
-| :---:   | :---: | :---: |  :---: |
-| Logo | Load the homepage   | P   |
+| Action (CLICK) | Expected Behavior   | Actual Behavior |
+| :---: | :---: | :---: |
+| Logo | Load the homepage  | P   |
 | HOME menu | Links directly to home page   | P   |
-| SERVICE | Direct to Service page   | P   |
-| CONTACT | Direct to the contact page  | P   |
-| CONTACT US | Direct to the contact page  | P   |
-| Get Started | Direct to contact page   | P   |
-| More Service| Direct to service page  | P   |
-| Blog >> | Direct to an external blog page   | P   |
+| SERVICE menu | Direct to Service page   | P   |
+| CONTACT Us menu | Direct to the contact page  | P   |
+| CONTACT US >| Direct to the contact page  | P   |
+| Get Started > | Direct to contact page   | P   |
+| More Service >| Direct to service page  | P   |
+| Blog " >> "| Direct to an external blog page   | P   |
 | Phone Number | Pops up a way to call   | P   |
 | Submit | Submit details of the form   | P   |
 | Facebook icon | Opens up facebook page in another tab  | P   |
@@ -530,7 +530,7 @@ On all html pages, some issues were found during the check over [W3C Validator c
 
 * My Mentor for the support he provided during the buildup of the project.
 * ReadMe layout inspiration from other Code Institute students from #peer-code-review forum and https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#development
-
+* ReadMe Table Inspiration from https://github.com/choyoon88/louquiz/edit/main/README.md
 * Code institute's template: https://github.com/Code-Institute-Org/gitpod-full-template
 
 * Font Awesome: https://fontawesome.com/
