@@ -44,6 +44,11 @@
 * [Deployment](#deployment)
 * [Tools](#tools)
 * [Testing](#testing)
+     * [Validator Testing](#validator-testing)
+         * [HTML](#html)
+         * [CSS](#css)
+     * [Lighthouse Performance](#lighthouse-performance)
+     * [Functional Testing](#functional-testing)
 * [Credit](#credits)
  
 
@@ -433,6 +438,39 @@ The following illustrate the steps I took to deplay my website;
 
 ---
 
+   ### Validator Testing
+
+#### HTML
+
+
+On all html pages, some issues were found during the check over [W3C Validator check](https://validator.w3.org/#validate_by_input)
+
+   - I was warned that <link rel="preload"> must have "as" attribute.
+      > Included "as" in the link tag solved this issue.
+
+   - Error: loading:"Easy" not to be included in div at this time
+      > Removing all "loading" attribute fixed this
+
+   - An error in identifying a class as an attribute.
+      > Changed the identified id to class attribute
+   
+   - Label id was identified to be wrongly spelt.
+      > Changed the letter to a lower case.
+
+   - Table header was less than column created.
+      > Added more "th" to the "tr"
+
+   - Attribute "tel" was not correctly defined.
+      > Deleted the spacing contained in the "tel" attribute fixed this.
+
+#### CSS
+
+ * No errors  were found when passed through the official [W3C Validator check](https://validator.w3.org/#validate_by_input)
+
+
+### Lighthouse Performance
+
+
 * Home Page
     * Performance = 93
     * Accessibility = 97 
@@ -458,6 +496,31 @@ The following illustrate the steps I took to deplay my website;
     * SEO = 98
 
 * I have tested the website across different device like samsung S20, ipads and laptop.
+
+
+### Functional Testing
+
+ Functional testing performed for every action within the website. If the behavior is the same as the expected behavior, it will be marked with P for pass, if not F for fail. 
+
+| Action (CLICK) | Expected Behavior    | Actual Behavior    |
+| :---:   | :---: | :---: |  :---: |
+| Logo | Load the homepage   | P   |
+| HOME menu | Links directly to home page   | P   |
+| SERVICE | Direct to Service page   | P   |
+| CONTACT | Direct to the contact page  | P   |
+| CONTACT US | Direct to the contact page  | P   |
+| Get Started | Direct to contact page   | P   |
+| More Service| Direct to service page  | P   |
+| Blog >> | Direct to an external blog page   | P   |
+| Phone Number | Pops up a way to call   | P   |
+| Submit | Submit details of the form   | P   |
+| Facebook icon | Opens up facebook page in another tab  | P   |
+| Instagram Icon | Opens up Instagram page in another tab  | P   |
+| Twitter Icon | Opens up Twitter page in another tab   | P   |
+| From the service page, Get Started > | Direct to the contact page  | P   |
+| From Contact page, submit| Direct to a response page   | P   |
+| From the contact page, click on the checkbox | Mark the clicked one   | P   |
+| From the Response page, click Home| Direct to home page  | P   |
 
 
 ---
