@@ -10,6 +10,7 @@
 
 body{
     background-color: white;
+    font-family: 'Roboto',sans-serif;
 }
 
 /*..... Header .....*/
@@ -18,7 +19,6 @@ header{
     align-items: center;
     background-color: white;
     display: flex;
-    font-family: 'Roboto', sans-serif;
     height: 7em;
     overflow: hidden;
 }
@@ -37,14 +37,11 @@ header{
 }
 
 #logo{
-    background-image: url("../images/gar-denlogo1.webp");
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("../images/gar-denlogo1.webp") no-repeat center;
     background-size: contain;
     float: left;
     height: 250px;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin: 10px 0 0 30px;
     object-fit: contain;
     width: 40%;
 }
@@ -142,8 +139,6 @@ header{
     font-size: 160%;
     font-family: 'Roboto', sans-serif;
     height: 260px;
-    
-
     letter-spacing: 4px;
     opacity: 0.9;
     padding: 40px 5px 0 5px;
@@ -251,8 +246,10 @@ header{
 }
 
 .subject{
-    margin: 20px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    margin: 20px;
+    
 }
 
 /*............. Blog section .............. */
@@ -356,6 +353,10 @@ header{
     margin-left: 20px;
 }
 
+#subject > p{
+    font-family: 'Archivo', sans-serif;
+}
+
 aside{
     background-color:white ;
     border: 3px solid #184E20;
@@ -432,7 +433,7 @@ footer #subscribebtn{
     font-size: larger;
     font-weight: 600;
     padding: 10px;
-    width: 8%;
+    width: 10%;
 }
 
 footer #subscribebtn:hover{
