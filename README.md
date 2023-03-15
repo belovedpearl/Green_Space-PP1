@@ -502,6 +502,7 @@ On all html pages, some issues were found during the check over [W3C Validator c
 
  Functional testing performed for every action within the website. If the behavior is the same as the expected behavior, it will be marked with P for pass, if not F for fail. 
 
+  
 | Action (CLICK) | Expected Behavior    | Actual Behavior    |
 | :---:   | :---: | :---: |  :---: |
 | Logo | Load the homepage   | P   |
