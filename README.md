@@ -327,7 +327,7 @@ With a click on a button, user can submit their request.
 
    
    In line with the motive of the website, I have selected a shade of green **(Hex Value = #184E20)** and **White** to complement the green nature attribute that the site promotes.
-   I have checked the contrast of both colors use as foreground and background. Contrast result gave the following;
+   Using [color contrast checker](https://dequeuniversity.com/) have checked the contrast of both colors use as foreground and background. Contrast result gave the following;
 
    |Foreground | Background | Contrast Ratio | Comment |
    |-----------|------------|----------------|---------|
@@ -343,12 +343,15 @@ With a click on a button, user can submit their request.
 
 ---
 
-I have designed the site to be easily accessible  with links thats connect different page together in order to prompt decision making and to allow for ease of access to information required bt its users.
+I have designed the site to be easily accessible  with links thats connect different page together in order to prompt decision making and to allow for ease of access to information required by its users.
 
 * Services section
    
    This introduces the user to garden standard practices and easy access with links connecting its providers.
-  
+* Blog Section
+
+   This section provides users with garden updates. I have designed all links to open in a new tab.
+   
 * Contact Us
 
    This is included to provide easy contact to the providers.
