@@ -72,9 +72,9 @@
 
 ---
 
- Green Space website is designed to provide a platform where garden lovers can connect with different garden service providers based on gardening standards it also aims to update its users on the latest news and practices involved in gardening. In today's world, there are needs in relation to garden and less time to go in search for one. The availability of quick and prompt service source will promote garden practice and overall improve garden plant. Hence, the platform seeks to be a source where relevant and quality garden services can be accessed.
+ Green Space website is designed to provide a platform where garden lovers can connect with different gardening service providers based on gardening standards. It also aims to update its users on the latest news and practices involved in gardening. In today's world, there are needs in relation to gardening and less time to go in search for one. The availability of quick and prompt service source will promote gardening practice and overall improved gardening practices. Hence, the platform seeks to be a source where relevant and quality gardening services can be accessed.
 
- It also seeks to create a community of garden lovers promoting right practices and keeping its members up to date with garden updates and news that relates to standard practice.
+ It also seeks to create a community of gardening lovers promoting right practices and keeping its members up to date with gardening updates and news that relates to standard practices.
 
 ---
 
@@ -87,9 +87,9 @@
    * To promote nature to its users.
    * To showcase the services the users can get through the platform.
    * To provide option for users to get quick quote for services required from random provider before finally settling for one.
-   * To keep its users up to date with relevant updates in garden practices.
+   * To keep its users up to date with relevant updates in gardening practices.
    * To promote people's understanding of gardening through newsletter sent regularly. 
-   * To build a community of garden lovers promoting right practice
+   * To build a community of gardening lovers promoting right practice
 
 ---
 
@@ -198,7 +198,7 @@ The website is made up of 4 pages;
 
   * Contact Page
 
-   As a way to build  interaction and promote communication, users can contactm the providers and feedback on the requested service will be provided. To contact the providers, users can either use the link or go through the navigation links provided.
+   As a way to build  interaction and promote communication, users can contact the providers and feedback on the requested service will be provided. To contact the providers, users can either use the link or go through the navigation links provided.
 
    ![Contact](assets/sitefeatures/contactform.webp)
    
@@ -302,7 +302,7 @@ With a click on a button, user can submit their request.
 
  * On clicking the **Get Started** link, users will be provided a list of relevant service providers for easy contact.
 
- * A search menu that an provide a short way of navigating through the site.
+ * A search menu that provide a short way of navigating through the site.
 
  ---
 
@@ -313,7 +313,7 @@ With a click on a button, user can submit their request.
 
 * The design choice was dictated by my ability to use the knowledge gained from the first module of the course. While presenting challenges, it allowed me to achieve a further growth in understanding of the concepts taught better.
 
-* From the start of the program, I aimed to design a website that covers in detail concepts taught in the module and more.
+* From the start of the program, I aimed to design a website that covers in detail the concepts taught in the module and more.
 
 ### Font
 
@@ -343,14 +343,14 @@ With a click on a button, user can submit their request.
 
 ---
 
-I have designed the site to be easily accessible  with links thats connect different page together in order to prompt decision making and to allow for ease of access to information required by its users.
+I have designed the site to be easily accessible  with links thats connect different pages together in order to prompt decision making and to allow for ease of access to information required by its users.
 
 * Services section
    
    This introduces the user to garden standard practices and easy access with links connecting its providers.
 * Blog Section
 
-   This section provides users with garden updates. I have designed all links to open in a new tab.
+   This section provides users with gardening updates. I have designed all links to open in a new tab.
    
 * Contact Us
 
@@ -532,9 +532,16 @@ On all html pages, some issues were found during the check over [W3C Validator c
 ## Credits
 
 * My Mentor for the support he provided during the buildup of the project.
+
+* My family for the support and understanding during the project.
+
 * ReadMe layout inspiration from other Code Institute students from #peer-code-review forum and https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#development
+
 * ReadMe Table Inspiration from https://github.com/choyoon88/louquiz/edit/main/README.md
+
 * Code institute's template: https://github.com/Code-Institute-Org/gitpod-full-template
+
+* Logo: https://logo-maker.freelogodesign.org/
 
 * Font Awesome: https://fontawesome.com/
 
