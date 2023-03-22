@@ -49,41 +49,35 @@
             <label for="email">EMAIL ADDRESS</label>
             <input id="email" name="email_address" type="email" class="text-input" placeholder="Email"  required>
             
-            <table>
-                <tr>
-                    <th>Service Required:</th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>
-                       <label for="bed">Bed Renovation</label>
-                       <input type="checkbox" name="bed" id="bed" value="bed_renovation">
-                    </td>
-                    <td>
-                        <label for="mulch">Mulching</label>
+            <div>
+                    <h3>Service Required:</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="bed" id="bed" value="bed_renovation">
+                        <label for="bed">Bed Renovation</label>    
+                    </li>
+                    <li>
                         <input type="checkbox" name="mulch" id="mulch" value="mulching">
-                    </td>
-                    <td>
-                       <label for="lawn">Lawn Installation</label>
-                       <input type="checkbox" name="lawn" id="lawn" value="lawn_installation">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                       <label for="season">Seasonal care</label>
-                       <input type="checkbox" name="season" id="season" value="seasonal_care">
-                    </td>
-                    <td>
-                        <label for="seed">Seed and Sod</label>
+                        <label for="mulch">Mulching</label>       
+                    </li>
+                    <li>
+                        <input type="checkbox" name="lawn" id="lawn" value="lawn_installation">
+                        <label for="lawn">Lawn Installation</label>    
+                    </li>
+                    <li>
+                        <input type="checkbox" name="season" id="season" value="seasonal_care">
+                        <label for="season">Seasonal care</label>     
+                    </li>
+                    <li>
                         <input type="checkbox" name="seed" id="seed" value="seeding_and_sodding">
-                    </td>
-                    <td>
-                         <label for="buy">Sales</label>
-                         <input type="checkbox" name="buy" id="buy" value="sales" >
-                     </td>
-                 </tr>
-            </table>
+                        <label for="seed">Seed and Sod</label>                  
+                    </li>
+                    <li>
+                        <input type="checkbox" name="buy" id="buy" value="sales" >
+                        <label for="buy">Sales</label>           
+                    </li>  
+                </ul>    
+            </div>
             <label for="message">FURTHER ENQUIRY</label>
             <textarea id="message" name="message" form="contact-form" rows="8" cols="50" placeholder="Message"></textarea>
                 

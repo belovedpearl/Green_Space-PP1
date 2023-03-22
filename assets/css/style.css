@@ -606,16 +606,17 @@ footer #sociallinks{
     border-color: #184E20;
 }
 
-table{
+div{
     margin: 10px 0 10px 0; 
 }
-
-th{
-    text-align: left;
+ul{
+    list-style: none;
 }
-td {
+li {
+    display: inline-block;
     font-family: 'Archivo',sans-serif;
     font-size: 100%;
+    width: 150px;
     padding-top: 10px;
 }
 
