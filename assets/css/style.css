@@ -357,7 +357,7 @@ header{
     font-family: 'Archivo', sans-serif;
 }
 
-aside{
+.contact-infobox{
     background-color:white ;
     border: 3px solid #184E20;
     color: #184E20;
@@ -367,7 +367,7 @@ aside{
     text-align: center;
     width: 350px;
 }
-aside > h4{
+.contact-infobox > h4{
     font-size: 130%;
     font-weight: 900;
 }
@@ -942,10 +942,12 @@ input[type="submit"]:hover {
         height: 95%;
         width: 75%;
     }
-
-    .text-input{
+    
+    .text-input,
+    #message{
         width: 95%;
     }
+    
 
     textarea{
         margin: 5px 0 5px 0;
@@ -970,7 +972,7 @@ input[type="submit"]:hover {
         width: 100%;
     }
 
-    aside{
+    .contact-infobox{
         width: 200px;
         margin-bottom: 10px;
     }
