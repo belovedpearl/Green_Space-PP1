@@ -947,15 +947,6 @@ input[type="submit"]:hover {
         width: 95%;
     }
 
-    table{
-        margin: 10px 0 10px 0;
-    }
-    
-    td{
-        display: block;
-        margin: 5px 0 5px 5px;
-    }
-
     textarea{
         margin: 5px 0 5px 0;
         width: 95%;
