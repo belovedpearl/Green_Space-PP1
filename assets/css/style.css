@@ -89,7 +89,7 @@ header{
     background-image: url("../images/naturefeel.webp");
 }
 
-#image-cont #slides > div {
+#slides > div {
     animation: animate 20s infinite;
     background-position: center center;
     background-size: cover;
@@ -103,13 +103,13 @@ header{
 
 /** Animation from https://youtu.be/FrQR7igd9bs with my modification **/
 
-#image-cont #slides > div:nth-child(2){
+#slides > div:nth-child(2){
     animation-delay: 5s;
 }
-#image-cont #slides > div:nth-child(3){
+#slides > div:nth-child(3){
     animation-delay: 10s;
 }
-#image-cont #slides > div:nth-child(4){
+#slides > div:nth-child(4){
     animation-delay: 15s;
 }
 
@@ -149,8 +149,7 @@ header{
     width: 400px;   
 }
 
-
-#brandCall #quote{
+#quote{
     background-color: rgb(230, 32, 65);
     color: white;
     font-weight: 900;
@@ -162,7 +161,7 @@ header{
     width: 20%;
 }
 
-#brandCall #quote:hover{
+#quote:hover{
     background-color: white;
     color: rgb(230, 32, 65);
 }
@@ -182,19 +181,20 @@ header{
     margin: 25px;
 }
 
-#contentbox #statedlist .content1 #image1{
+#image1{
     background-image: url("../images/bed.webp");
 }
-#contentbox #statedlist .content1 #image2{
+#image2{
     background-image: url("../images/mulch.webp");
 }
-#contentbox #statedlist .content1 #image3{
+#image3{
     background-image: url("../images/gallery4.webp");
 }
-#contentbox #statedlist .content1 .image{
+.content1 .image{
     background-size: cover;
     background-position: center;
     height: 180px;
+    margin: 0;
     object-fit: contain;
     width: 100%;
 }
@@ -300,6 +300,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 250px;
+    margin: 0;
     object-fit: contain;
     margin-bottom: 10px;
     width: 100%;
@@ -416,7 +417,7 @@ footer label{
     font-weight: 600;
 }
 
-footer #subscribe{
+#subscribe{
     border: 2px solid #184E20;
     border-radius: 10px;
     font-size: larger;
@@ -425,7 +426,7 @@ footer #subscribe{
     width: 20%; 
 }
 
-footer #subscribebtn{
+#subscribebtn{
     background-color: rgb(230, 32, 65);
     border-radius: 10px;
     color: white;
@@ -437,13 +438,13 @@ footer #subscribebtn{
     width: 10%;
 }
 
-footer #subscribebtn:hover{
+#subscribebtn:hover{
     background-color: white;
     border: 1px solid  rgb(230, 32, 65);
     color: rgb(230, 32, 65);
 }
 
-footer #sociallinks{
+#sociallinks{
     text-align: center;
 }
 
@@ -514,36 +515,36 @@ footer #sociallinks{
     width: 50%;
 }
 
-#maincontent .servicelist .bedContent{
+.bedContent{
     float: right;
     margin-top: 0;
     width: 50%;
 }
 
-#maincontent .servicelist div > h3{
+.servicelist div > h3{
     margin: 20px;
 }
 
-#maincontent .servicelist #serImage1{
+#serImage1{
     background-image: url("../images/bed.webp");
 }
-#maincontent .servicelist #serImage2{
+#serImage2{
     background-image: url("../images/mulch.webp");
 }
-#maincontent .servicelist #serImage3{
+#serImage3{
     background-image: url("../images/slide3.webp");
 }
-#maincontent .servicelist #serImage4{
+#serImage4{
     background-image: url("../images/gallery4.webp");
 }
-#maincontent .servicelist #serImage5{
+#serImage5{
     background-image: url("../images/sed1.webp");
 }
-#maincontent .servicelist #serImage6{
+#serImage6{
     background-image: url("../images/sales1.webp");
 }
 
-#maincontent .servicelist .servicePic{
+.servicePic{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -552,7 +553,7 @@ footer #sociallinks{
     width: 50%;
 }
 
-#maincontent .servicelist div > p{
+.servicelist div > p{
     padding: 0 10px 0 10px;
     margin-bottom: 20px;
 }
@@ -694,8 +695,11 @@ input[type="submit"]:hover {
         margin: 0 auto;
         width: 95%;
     } 
-    #maincontent .servicelist div > p{
+    .servicelist div > p{
         margin: 10px;
+    }
+    #contact-form{
+        height: 85%;
     }
 }
 
@@ -766,7 +770,7 @@ input[type="submit"]:hover {
         width: 30%;
     }
 
-    #maincontent .servicelist div > h3{
+    .servicelist div > h3{
         margin: 10px;
     }
     
@@ -775,11 +779,11 @@ input[type="submit"]:hover {
         width: 70%;
     }
     
-    footer #actioncall form #subscribe{
+    #subscribe{
         width: 30%;
     }
 
-    footer #actioncall form #subscribebtn{
+    #subscribebtn{
         width: 12%;
     }
 
@@ -846,7 +850,7 @@ input[type="submit"]:hover {
             width: 300px;   
         }
 
-        #brandCall #quote{
+        #quote{
             width: 35%;
             height: 35px;
         }
@@ -861,7 +865,7 @@ input[type="submit"]:hover {
             width: 80%;
         }
        
-        #contentbox #statedlist .content1 .image{
+        .image{
             background-repeat: no-repeat;
             height: 200px;
         }
@@ -923,13 +927,14 @@ input[type="submit"]:hover {
         width: 100%;
     }
 
-    #maincontent .servicelist .bedContent{
+    .bedContent{
         margin-top: 0;
         width: 100%;
     }
     
-    #maincontent .servicelist .servicePic{
+    .servicePic{
         width: 100%;
+        margin: 0;
     }
           /* Form */
     
@@ -939,7 +944,7 @@ input[type="submit"]:hover {
     }
 
     #contact-form {
-        height: 95%;
+        height: 92%;
         width: 75%;
     }
     
@@ -987,11 +992,11 @@ input[type="submit"]:hover {
 
     /* Footer */
     
-    footer #actioncall form #subscribe{
+    #subscribe{
         width: 60%;
     }
 
-    footer #actioncall form #subscribebtn{
+    #subscribebtn{
         width: 30%;
         padding: 8px;
     }
