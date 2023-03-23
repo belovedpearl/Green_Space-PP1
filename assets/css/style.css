@@ -12,6 +12,41 @@ body{
     background-color: white;
     font-family: 'Roboto',sans-serif;
 }
+/*..... General ...........*/
+
+div{
+    margin: 10px 0 10px 0; 
+}
+ul{
+    list-style: none;
+}
+li {
+    display: inline-block;
+    font-family: 'Archivo',sans-serif;
+    font-size: 100%;
+    width: 150px;
+    padding-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: rgb(230, 32, 65);
+    border-radius: 5px;
+    color: #fafafa;
+    cursor: pointer;
+    display: block;
+    font-size: 120%;
+    font-weight: 900;
+    margin-top: 5px;
+    padding: 5px 12px 5px 12px;
+    text-align: center;    
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: rgb(230, 32, 65);
+    font-weight: 900;
+}
+
 
 /*..... Header .....*/
 
@@ -607,20 +642,6 @@ footer label{
     border-color: #184E20;
 }
 
-div{
-    margin: 10px 0 10px 0; 
-}
-ul{
-    list-style: none;
-}
-li {
-    display: inline-block;
-    font-family: 'Archivo',sans-serif;
-    font-size: 100%;
-    width: 150px;
-    padding-top: 10px;
-}
-
 #message{
     border: 1px solid white;
     border-radius: 2px;
@@ -631,24 +652,6 @@ li {
     width: 80%;
 }
 
-input[type="submit"] {
-    background-color: rgb(230, 32, 65);
-    border-radius: 5px;
-    color: #fafafa;
-    cursor: pointer;
-    display: block;
-    font-size: 120%;
-    font-weight: 900;
-    margin-top: 5px;
-    padding: 5px 12px 5px 12px;
-    text-align: center;    
-}
-
-input[type="submit"]:hover {
-    background-color: white;
-    color: rgb(230, 32, 65);
-    font-weight: 900;
-}
 
 /*______________ Thank You Page ______________*/
 
@@ -672,8 +675,6 @@ input[type="submit"]:hover {
 #back{
     margin: 0 auto;
 }
-
-
 
 /*------------- Responsiveness on SMALLER Screens----------------- */
 
