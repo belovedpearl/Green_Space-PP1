@@ -41,6 +41,9 @@
      * [Frameworks and Programs](#frameworks-and-programs)
 
 * [Bugs](#bugs)
+     * [Fixed Bugs](#fixed-bugs)
+     * [Unfixed Bugs](#unfixed-bugs)
+
 * [Deployment](#deployment)
 * [Tools](#tools)
 * [Testing](#testing)
@@ -50,6 +53,7 @@
      * [Lighthouse Performance](#lighthouse-performance)
      * [Functional Testing](#functional-testing)
 * [Credit](#credits)
+* [Acknowledgement](#acknowledgement)
  
 
 
@@ -159,7 +163,7 @@ Presention of information on the site will be in the following ways;
 
 ##### Wireframe 5: Tablets and Mobile
 
-![Tablets and Mobile](assets/wireframes/tablets%26mobile.webp)
+![Tablets and Mobile](assets/wireframes/tablets%26mobile1.webp)
 
 
 
@@ -387,6 +391,8 @@ I have designed the site to be easily accessible  with links thats connect diffe
 
 ---
 
+### Fixed Bugs
+
 * Caption Image
     * I discovered the caption image was not properly placed on smaller screen, it was resolved by resizing and viewing it till I got a properly placed caption image.
 * Input on contact form not displaying text
@@ -400,12 +406,27 @@ I have designed the site to be easily accessible  with links thats connect diffe
 
 * Footer on service page was not properly presented, looking through the html code, I realised a wrong id was inserted.
 
+* Cursor on submit button was noticed to be in arrow.
+   * Changing cursor setting to pointer fixed this.
+
+* Table used in the contact form gave more margin between the cells ob changing the display to block.
+   * Changing the table tag to unordered list gave the list equal spacing when changed to block display.
+* Textarea was noticed to be smaller than the other inputs on small screen.
+   * Adjusting the style on the textarea fixed this.
+
+### Unfixed Bugs
+
+  * I noticed errors in the console which is a result of the embeded google map. It displays appropriately, I feel it is above my current knowledge.
+
+  * Some of my commit statements are not so specific but it was improved upon in subsequent commits.
+
 ---
 
 ## Deployment
 
 ---
 
+### GitHub Pages
 
 * The project was deployed via Github Pages.
 
@@ -416,6 +437,19 @@ The following illustrate the steps I took to deplay my website;
   * In the "Build and Deployment" section there is a "Branch Heading". Select to deploy from "main" branch in the dropdown option.
   * Click on save
   * A few minutes later, after refreshing the page, there will automatically be an update containing the "live site link".
+
+The live link can be found [here](https://belovedpearl.github.io/Green_Space-PP1/).
+
+### How to Fork
+  
+  By forking a repository, you make a copy of a repository without affecting the original repository. You can fork this repository using the following steps.
+
+  * Login to GitHub and locate the [GitHub Repository](https://github.com/belovedpearl/Green_Space-PP1).
+
+  * At the top of the repository just above the "Settings" button on the menu, locate the "Fork" button.
+
+  * Once clicked, you should have a copy of the original repository in your own account.
+
 
 ---
 
@@ -432,8 +466,23 @@ The following illustrate the steps I took to deplay my website;
   *  [Contrast checker](https://dequeuniversity.com/)
   *  [Coolors.co](https://coolors.co/)
   *  [Responsiveness Testing](https://ui.dev/amiresponsive)
-  *  [Learinng more about flex](https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/).
-  *  [W3Schools](https://www.w3schools.com/), [Stack overflow](https://www.slackoverflow.com/) & [Mdn wed docs](https://developer.mozilla.org/en-US/) - Visited several times to correctly learn how to write and style my code.
+   Logo: https://logo-maker.freelogodesign.org/
+
+  * [Font Awesome](https://fontawesome.com/)
+
+  * [Fonts](https://fonts.google.com/)
+
+  * [Font pair](https://fontpair.com/) 
+
+  * [Fonts Awesome](https://www.fontawesome.com/)
+
+  * [Automatic Image Slideshow](https://youtu.be/FrQR7igd9bs)
+
+  * [Fonts](https://fonts.google.com/)
+
+  * [Map](https://www.embedgooglemap.net/ location Chester)
+
+
 
 ---
 
@@ -531,38 +580,34 @@ On all html pages, some issues were found during the check over [W3C Validator c
 
 ## Credits
 
-* My Mentor for the support he provided during the buildup of the project.
-
-* My family for the support and understanding during the project.
-
 * ReadMe layout inspiration from other Code Institute students from #peer-code-review forum and https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#development
 
-* ReadMe Table Inspiration from https://github.com/choyoon88/louquiz/edit/main/README.md
+* [ReadMe table presentation](https://github.com/AdamBoley/The-Space-Marine-Legions)
 
-* Code institute's template: https://github.com/Code-Institute-Org/gitpod-full-template
+* [ReadMe Table Inspiration](https://github.com/choyoon88/louquiz/edit/main/README.md)
 
-* Logo: https://logo-maker.freelogodesign.org/
+* [Code institute's template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-* Font Awesome: https://fontawesome.com/
+* [Learinng more about flex](https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/).
 
-* Fonts: https://fonts.google.com/
+*  [W3Schools](https://www.w3schools.com/), [Stack overflow](https://www.slackoverflow.com/) & [Mdn wed docs](https://developer.mozilla.org/en-US/) - Visited several times to correctly learn how to write and style my code.
 
-* Font pair: https://fontpair.com/ 
-
-* Fonts Awesome: https://www.fontawesome.com/
-
-* Automatic Image Slideshow https://youtu.be/FrQR7igd9bs
-
-* Fonts: https://fonts.google.com/
-
-* Map: https://www.embedgooglemap.net/ location Chester
 
 * Images: 
 Images used are from Isostock, Nikon corporation, png tree and png all
-
 
 * Content Sources:
 
 As a graduate of Agriculture, I have the understanding about gardening hence I put together all the lines used in illustration with details that I know pertains to each topic.
 
 ---
+
+## Acknowledgement
+
+* I will like to thank **My Husband** for his support and understanding during the project, for all encouragement and even getting me on this programme.
+
+* Much love to my **Children** for understanding and encouraging me through this project buildup
+
+* A big thank you to my Mentor, **Sandeep Aggarwal**  for the support and through enlightment he provided during the buildup of this project.
+
+* Thank you to everyone at **Code Institute** for helping us learn.
