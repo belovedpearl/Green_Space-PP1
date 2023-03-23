@@ -58,7 +58,7 @@ header{
     overflow: hidden;
 }
 
-#logocontainer{
+#logoContainer{
     width: 50%;
 }
 
@@ -103,7 +103,7 @@ header{
  
  /*. Hero Slides .*/
 
- #image-cont{
+ #imageCont{
     height: 350px;
     overflow: hidden;
     position: relative;
@@ -203,7 +203,7 @@ header{
 
 /*............. Service Section ............*/
 
-#contentbox{
+#serviceSectionBox{
     font-size: 120%;
     height: 500px;
     margin: 0 auto;
@@ -216,16 +216,16 @@ header{
     margin: 25px;
 }
 
-#image1{
+#serviceImage1{
     background-image: url("../images/bed.webp");
 }
-#image2{
+#serviceImage2{
     background-image: url("../images/mulch.webp");
 }
-#image3{
+#serviceImage3{
     background-image: url("../images/gallery4.webp");
 }
-.content1 .image{
+.serviceContent .image{
     background-size: cover;
     background-position: center;
     height: 180px;
@@ -234,13 +234,13 @@ header{
     width: 100%;
 }
 
-#statedlist{
+#serviceContentList{
     display: flex;
     margin: 0 auto;
     width: 90%;
 }
 
-.content1{
+.serviceContent{
     border: 2px solid #184E20;
     color: #184E20;
     font-family: 'Archivo',sans-serif;
@@ -250,16 +250,16 @@ header{
     width: 100%;
 }
 
-.content1 > p{
+.serviceContent > p{
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
 }
 
-.content1 a,
-#moreservice a,
-#salecontact,
-.getservice{
+.serviceContent a,
+#moreService a,
+#saleContact,
+.getService{
     border-radius: 10px;
     color: rgb(230, 32, 65);
     font-family: 'Roboto',sans-serif;
@@ -268,19 +268,19 @@ header{
     text-decoration: none;
 }
 
-.content1 a:hover{
+.serviceContent a:hover{
     background-color: rgb(230, 32, 65);
     color: white;
 }
 
-#moreservice{
+#moreService{
     padding: 20px;
     height: 50px;
     width: 100%;
     text-align: center;
 }
 
-.subject{
+.serviceSubject{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     margin: 20px;
@@ -298,20 +298,20 @@ header{
     width: 100%;
 }
 
-#blogheader{
+#blogHeader{
     color: white;
     margin: 25px;
     padding-top: 5px;
 }
 
-#blogcontent{
+#blogContent{
     display: flex;
     height: 380px;
     margin: 0 auto;
     width: 90%;
 }
 
-.bloghighlight{
+.blogHighlight{
     background-color: white;
     color: #184E20;
     height: 380px;
@@ -341,11 +341,11 @@ header{
     width: 100%;
 }
 
-.bloghighlight h4{
+.blogHighlight h4{
     margin: 4px;
 }
 
-.readmore{
+.readMore{
     background-color: rgb(230, 32, 65);
     border-radius: 10px;
     color: white;
@@ -358,7 +358,7 @@ header{
     width: 20%;
 }
 
-.readmore:hover{
+.readMore:hover{
     background-color: white;
     border: 1px solid  rgb(230, 32, 65);
     color: rgb(230, 32, 65); 
@@ -375,7 +375,7 @@ header{
     width: 100%;
 }
 
-#subsubject{
+#subSubject{
     color: #184E20;
     font-size: 40px;
     margin-bottom: 5px;
@@ -393,7 +393,7 @@ header{
     font-family: 'Archivo', sans-serif;
 }
 
-.contact-infobox{
+.contactInfobox{
     background-color:white ;
     border: 3px solid #184E20;
     color: #184E20;
@@ -403,7 +403,7 @@ header{
     text-align: center;
     width: 350px;
 }
-.contact-infobox > h4{
+.contactInfobox > h4{
     font-size: 130%;
     font-weight: 900;
 }
@@ -426,7 +426,7 @@ header{
 
 
 /*.................  Map Section ...............*/
-#mapspace{
+#mapSpace{
     width: 100%;
 }
 #map{
@@ -461,7 +461,7 @@ footer label{
     width: 20%; 
 }
 
-#subscribebtn{
+#subscribeBtn{
     background-color: rgb(230, 32, 65);
     border-radius: 10px;
     color: white;
@@ -473,21 +473,21 @@ footer label{
     width: 10%;
 }
 
-#subscribebtn:hover{
+#subscribeBtn:hover{
     background-color: white;
     border: 1px solid  rgb(230, 32, 65);
     color: rgb(230, 32, 65);
 }
 
-#sociallinks{
+#socialLinks{
     text-align: center;
 }
 
-#sociallinks > li{
+#socialLinks > li{
     display: inline;
 }
 
-#sociallinks i{
+#socialLinks i{
     color: #184E20;
     font-size: 200%;
     margin: 2%;
@@ -515,32 +515,32 @@ footer label{
     width: 95%;
 }
 
-#servicehead{
+#serviceHead{
     background-color: #184E20;
     color: white;
     margin: 10px;
 }
 
-#servicehead h2{
+#serviceHead h2{
     color: rgb(230, 32, 65);
     font-weight: 900;
     letter-spacing: 4px;
     margin: 10px;
 }
 
-#servicehead p{
+#serviceHead p{
     font-size: 130%;
     line-height: 25px;
 }
 
-#maincontent{
+#mainContent{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     width: 95%; 
 }
 
-#maincontent .servicelist{
+#mainContent .serviceList{
     align-content: center;
     color: #184E20;
     display: flex;
@@ -556,7 +556,7 @@ footer label{
     width: 50%;
 }
 
-.servicelist div > h3{
+.serviceList div > h3{
     margin: 20px;
 }
 
@@ -588,15 +588,15 @@ footer label{
     width: 50%;
 }
 
-.servicelist div > p{
+.serviceList div > p{
     padding: 0 10px 0 10px;
     margin-bottom: 20px;
 }
 
 /*......... Form..........*/
 
-#form-section,
-#thanks-section {
+#formSection,
+#thanksSection {
     align-items: center;
     background-image: url("../images/slide11.webp"); 
     background-size: cover;
@@ -609,8 +609,8 @@ footer label{
     width: 95%;    
 }
 
-#contact-form,
-#thank-you {
+#contactForm,
+#thankYou {
     background-color: #184E20;
     color: white;
     height: 80%;
@@ -619,14 +619,14 @@ footer label{
     width: 45%;  
 }
 
-#contact-form > h2 {
+#contactForm > h2 {
     color: white;
     display: block;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.text-input {
+.textInput {
     border: 1px solid white;
     border-radius: 2px;
     display: block;
@@ -638,7 +638,7 @@ footer label{
     width: 80%;
 }
 
-.text-input:hover {
+.textInput:hover {
     border-color: #184E20;
 }
 
@@ -655,11 +655,11 @@ footer label{
 
 /*______________ Thank You Page ______________*/
 
-#thanks-section{
+#thanksSection{
     height: 400px;
 }
 
-#thank-you{
+#thankYou{
     font-size: 150%;
     height: 90%;
     padding: 2px;
@@ -688,18 +688,18 @@ footer label{
     #menu li{
         margin-left: 50px;
     }
-    .content1 > p{
+    .serviceContent > p{
         margin: 0 1px 0 1px;
     }
-    #blogcontent{
+    #blogContent{
         height: 450px;
         margin: 0 auto;
         width: 95%;
     } 
-    .servicelist div > p{
+    .serviceList div > p{
         margin: 10px;
     }
-    #contact-form{
+    #contactForm{
         height: 85%;
     }
 }
@@ -708,7 +708,7 @@ footer label{
 
 @media screen and (max-width: 800px) {
 
-    #logocontainer{
+    #logoContainer{
         margin-top: 0;
         width: 40%;
     }
@@ -721,23 +721,23 @@ footer label{
         margin-left: 10px;
     }
 
-    #contentbox{
+    #serviceSectionBox{
         height: 100%;
     }
 
-    #statedlist{
+    #serviceContentList{
         flex-direction: column;
         gap: 10px;
         height: 100%;
         width: 80%;
     }
 
-    .content1{
+    .serviceContent{
         margin: 0 auto;
         width: 60%; 
     }
 
-    .content1 p{
+    .serviceContent p{
         margin-bottom: 10px;
     }
     
@@ -745,12 +745,12 @@ footer label{
         height: 100%;
     }
 
-    #blogcontent{
+    #blogContent{
         flex-direction: column;
         height: 100%;
     }
         
-    .bloghighlight{
+    .blogHighlight{
         display: flex;
         height: 250px;
         width: 95%;
@@ -763,19 +763,19 @@ footer label{
     }
     
     
-    .bloghighlight > div{
+    .blogHighlight > div{
         padding: 65px;
     }
 
-    .readmore{
+    .readMore{
         width: 30%;
     }
 
-    .servicelist div > h3{
+    .serviceContentList div > h3{
         margin: 10px;
     }
     
-    #contact-form {
+    #contactForm {
         height: 80%;
         width: 70%;
     }
@@ -784,11 +784,11 @@ footer label{
         width: 30%;
     }
 
-    #subscribebtn{
+    #subscribeBtn{
         width: 12%;
     }
 
-    #thank-you{
+    #thankYou{
         width: 50%;
     }
 
@@ -803,7 +803,7 @@ footer label{
             height: 9.5em; 
         }
 
-        #logocontainer{
+        #logoContainer{
             height: 120px;
             margin: 0;
             overflow: hidden;
@@ -831,7 +831,7 @@ footer label{
             padding: 3px;
         }
         
-        #image-cont{
+        #imageCont{
             display: flex;
             flex-direction: column;
             height: 400px;
@@ -856,13 +856,13 @@ footer label{
             height: 35px;
         }
 
-        #statedlist{
+        #serviceContentList{
             width: 100%;
         }
 
-        .content1{
+        .serviceContent{
             font-size: 100%;
-            height: 360px;
+            height: 375px;
             width: 80%;
         }
        
@@ -871,7 +871,7 @@ footer label{
             height: 200px;
         }
         
-        .content1 > p{
+        .serviceContent > p{
             font-size: 100%;
             margin: 0 3px 13 3px;
         }
@@ -880,21 +880,21 @@ footer label{
             margin: 10px;
         }
 
-        .content1 a{
+        .serviceContent a{
             margin-top: 2px;
             right: 70px;
         }
         
-        #blogcontent{
+        #blogContent{
             width: 95%;
         }
         
-        .bloghighlight{
+        .blogHighlight{
             background-color: white;
             height: 200px;
         }
 
-        .bloghighlight > div{
+        .blogHighlight > div{
             padding: 0;
          }
 
@@ -904,22 +904,22 @@ footer label{
             margin: 0;
         }
 
-        .bloghighlight h3{
+        .blogHighlight h3{
             font-size: 100%;
             margin: 3px;
         }
 
-        .readmore{
+        .readMore{
             width: 60%;
             margin-top: 20px;
         }
     
         /*..... Services Page .....*/
-    #maincontent{
+    #mainContent{
         flex-direction: column;
     }
 
-    #maincontent .servicelist{
+    #mainContent .serviceList{
         border: 2px solid #184E20;
         display: flex;
         flex-direction: column;
@@ -939,17 +939,17 @@ footer label{
     }
           /* Form */
     
-    #form-section{
+    #formSection{
         height: 850px ;
         width: 100%;
     }
 
-    #contact-form {
+    #contactForm {
         height: 92%;
         width: 75%;
     }
     
-    .text-input,
+    .textInput,
     #message{
         width: 95%;
     }
@@ -978,7 +978,7 @@ footer label{
         width: 100%;
     }
 
-    .contact-infobox{
+    .contactInfobox{
         width: 200px;
         margin-bottom: 10px;
     }
@@ -997,11 +997,11 @@ footer label{
         width: 60%;
     }
 
-    #subscribebtn{
+    #subscribeBtn{
         width: 30%;
         padding: 8px;
     }
-    #thank-you{
+    #thankYou{
         font-size: 130%;
         width: 70%;
     } 
