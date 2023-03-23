@@ -861,7 +861,7 @@ input[type="submit"]:hover {
 
         .content1{
             font-size: 100%;
-            height: 380px;
+            height: 360px;
             width: 80%;
         }
        
@@ -872,7 +872,7 @@ input[type="submit"]:hover {
         
         .content1 > p{
             font-size: 100%;
-            margin: 0 3px 0 3px;
+            margin: 0 3px 13 3px;
         }
 
         .subject{
