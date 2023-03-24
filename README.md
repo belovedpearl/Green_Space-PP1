@@ -487,7 +487,7 @@ The live link can be found [here](https://belovedpearl.github.io/Green_Space-PP1
 
   * [Fonts](https://fonts.google.com/)
 
-  * [Map](https://www.embedgooglemap.net/ location Chester)
+  * [Map](https://www.embedgooglemap.net/locationChester)
 
 
 

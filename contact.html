@@ -1,148 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Garden Services near me, Plants updates, Green environment">
-    <meta name="keywords" content="Gardening, Garden design, Garden Maintenance, Plant news">
-    <meta name="author" content="Green Space">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Green Space</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Garden Services near me, Plants updates, Green environment"
+        />
+        <meta
+            name="keywords"
+            content="Gardening, Garden design, Garden Maintenance, Plant news"
+        />
+        <meta name="author" content="Green Space" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Green Space</title>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div id="logoContainer">
+                <a href="index.html" aria-label="Go to the main page">
+                    <img
+                        src="assets/images/gar-denlogo1.webp"
+                        id="logo"
+                        alt="site's logo"
+                    />
+                </a>
+            </div>
+            <nav id="menuContainer">
+                <ul id="menu">
+                    <li>
+                        <a href="index.html" aria-label="Go to the main page"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="service.html" aria-label="Go to service page"
+                            >Services</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="contact.html"
+                            aria-label="Go to the contact page"
+                            class="active"
+                            >Contact Us</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- Header Section -->
-    <header>
-        <div id="logoContainer">
-            <a href="index.html" aria-label="Go to the main page">
-                <img src="assets/images/gar-denlogo1.webp" id="logo" alt="site's logo">
-            </a>
+        <!-- Contact Form -->
+        <section id="formSection">
+            <form id="contactForm" action="thanks.html" method="get">
+                <h2>Send us your Enquiry now</h2>
+
+                <label for="fullName">NAME</label>
+                <input
+                    id="fullName"
+                    type="text"
+                    name="first_name"
+                    class="textInput"
+                    placeholder="First and Last Name"
+                    required
+                />
+
+                <label for="phoneNo">PHONE NUMBER</label>
+                <input
+                    id="phoneNo"
+                    type="tel"
+                    name="phone_number"
+                    class="textInput"
+                    placeholder="Phone Number"
+                    required
+                />
+
+                <label for="email">EMAIL ADDRESS</label>
+                <input
+                    id="email"
+                    name="email_address"
+                    type="email"
+                    class="textInput"
+                    placeholder="you@example.com"
+                    required
+                />
+
+                <div>
+                    <h3>Service Required:</h3>
+                    <ul>
+                        <li>
+                            <input
+                                type="checkbox"
+                                name="bed"
+                                id="bed"
+                                value="bed_renovation"
+                            />
+                            <label for="bed">Bed Renovation</label>
+                        </li>
+                        <li>
+                            <input
+                                type="checkbox"
+                                name="mulch"
+                                id="mulch"
+                                value="mulching"
+                            />
+                            <label for="mulch">Mulching</label>
+                        </li>
+                        <li>
+                            <input
+                                type="checkbox"
+                                name="lawn"
+                                id="lawn"
+                                value="lawn_installation"
+                            />
+                            <label for="lawn">Lawn Installation</label>
+                        </li>
+                        <li>
+                            <input
+                                type="checkbox"
+                                name="season"
+                                id="season"
+                                value="seasonal_care"
+                            />
+                            <label for="season">Seasonal care</label>
+                        </li>
+                        <li>
+                            <input
+                                type="checkbox"
+                                name="seed"
+                                id="seed"
+                                value="seeding_and_sodding"
+                            />
+                            <label for="seed">Seed and Sod</label>
+                        </li>
+                        <li>
+                            <input
+                                type="checkbox"
+                                name="buy"
+                                id="buy"
+                                value="sales"
+                            />
+                            <label for="buy">Sales</label>
+                        </li>
+                    </ul>
+                </div>
+                <label for="message">FURTHER ENQUIRY</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    form="contact-form"
+                    rows="8"
+                    cols="50"
+                    placeholder="Message"
+                ></textarea>
+
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+
+        <section id="contact">
+            <div id="subject">
+                <h2 id="subSubject"><span>Get in</span> touch</h2>
+                <p>
+                    Want to get in touch? We will love to hear from you. Here's
+                    how you can reach us...
+                </p>
+            </div>
+            <div id="contact1" class="contactInfobox">
+                <i class="fa-solid fa-phone"></i>
+                <h4>Call us</h4>
+                <p><a href="tel:+447552656621">+44 755 26 56621</a></p>
+            </div>
+
+            <div id="contact2" class="contactInfobox">
+                <i class="fa-regular fa-message"></i>
+                <h4>Mail Us</h4>
+                <p>tye@greenspace.uk.org</p>
+            </div>
+        </section>
+
+        <!-- Map Section-->
+
+        <div id="mapSpace">
+            <iframe
+                id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2397.587676963584!2d-2.9900315!3d53.0637157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ac6e85f77f82f%3A0x4a288f6465a4a635!2sChester%20Rd%2C%20Wrexham%20LL12%208DW!5e0!3m2!1sen!2suk!4v1676048990175!5m2!1sen!2suk"
+                title="map showing the location"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
         </div>
-        <nav id="menuContainer">
-            <ul id="menu">
+
+        <!-- Footer Section-->
+        <footer>
+            <div id="actionCall">
+                <form
+                    action="https://formdump.codeinstitute.net/"
+                    method="post"
+                >
+                    <label for="subscribe">Subscribe to our Newsletter:</label>
+                    <input
+                        id="subscribe"
+                        type="email"
+                        name="subscribe"
+                        placeholder="Enter your Email"
+                        required
+                    />
+                    <button type="submit" id="subscribeBtn">Submit</button>
+                </form>
+            </div>
+
+            <ul id="socialLinks">
                 <li>
-                    <a href="index.html" aria-label="Go to the main page">Home</a>
+                    <a
+                        href="https://www.facebook.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Find us on Facebook (link opens in a new tab)"
+                        ><i class="fa-brands fa-facebook"></i
+                    ></a>
                 </li>
                 <li>
-                    <a href="service.html" aria-label="Go to service page">Services</a>
+                    <a
+                        href="https://www.instagram.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Find us on Instagram (link opens in a new tab)"
+                        ><i class="fa-brands fa-instagram"></i
+                    ></a>
                 </li>
                 <li>
-                    <a href="contact.html" aria-label="Go to the contact page" class="active">Contact Us</a>
+                    <a
+                        href="https://www.twitter.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Find us on Twitter (link opens in a new tab)"
+                        ><i class="fa-brands fa-twitter"></i
+                    ></a>
                 </li>
             </ul>
-        </nav>
-    </header>
 
-    <!-- Contact Form -->
-    <section id="formSection">
-        <form id="contactForm" action="thanks.html" method="get">
-            
-            <h2>Send us your Enquiry now</h2>
-                
-            <label for="fullName">NAME</label>
-            <input id="fullName" type="text" name="first_name" class="textInput" placeholder="First and Last Name" required>
-                
-            <label for="phoneNo">PHONE NUMBER</label>
-            <input id="phoneNo" type="tel" name="phone_number" class="textInput" placeholder="you@example.com" required>
-                
-            <label for="email">EMAIL ADDRESS</label>
-            <input id="email" name="email_address" type="email" class="textInput" placeholder="Email"  required>
-            
-            <div>
-                    <h3>Service Required:</h3>
-                <ul>
-                    <li>
-                        <input type="checkbox" name="bed" id="bed" value="bed_renovation">
-                        <label for="bed">Bed Renovation</label>    
-                    </li>
-                    <li>
-                        <input type="checkbox" name="mulch" id="mulch" value="mulching">
-                        <label for="mulch">Mulching</label>       
-                    </li>
-                    <li>
-                        <input type="checkbox" name="lawn" id="lawn" value="lawn_installation">
-                        <label for="lawn">Lawn Installation</label>    
-                    </li>
-                    <li>
-                        <input type="checkbox" name="season" id="season" value="seasonal_care">
-                        <label for="season">Seasonal care</label>     
-                    </li>
-                    <li>
-                        <input type="checkbox" name="seed" id="seed" value="seeding_and_sodding">
-                        <label for="seed">Seed and Sod</label>                  
-                    </li>
-                    <li>
-                        <input type="checkbox" name="buy" id="buy" value="sales" >
-                        <label for="buy">Sales</label>           
-                    </li>  
-                </ul>    
+            <div id="copyright">
+                <p><i class="fa-regular fa-copyright"></i> BelovedPearl 2023</p>
             </div>
-            <label for="message">FURTHER ENQUIRY</label>
-            <textarea id="message" name="message" form="contact-form" rows="8" cols="50" placeholder="Message"></textarea>
-                
-            <input type="submit" value="Submit">
-        
-        </form>
-    
-    </section>
+        </footer>
 
-    <!-- Contact Section -->
-    
-    <section id="contact">
-        <div id="subject">
-            <h2 id="subSubject"><span>Get in</span> touch</h2>
-            <p>Want to get in touch? We will love to hear from you. Here's how you can reach us...</p>
-        </div>
-        <div id="contact1" class="contactInfobox">
-            <i class="fa-solid fa-phone"></i>
-            <h4>Call us</h4>
-            <p><a href="tel:+447552656621">+44 755 26 56621</a></p>
-        </div>
-
-        <div id="contact2" class="contactInfobox">
-            <i class="fa-regular fa-message"></i>
-            <h4>Mail Us</h4>
-            <p>tye@greenspace.uk.org</p>
-        </div>
-    
-    </section>
-
-    <!-- Map Section-->
-
-    <div id="mapSpace">
-        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2397.587676963584!2d-2.9900315!3d53.0637157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ac6e85f77f82f%3A0x4a288f6465a4a635!2sChester%20Rd%2C%20Wrexham%20LL12%208DW!5e0!3m2!1sen!2suk!4v1676048990175!5m2!1sen!2suk" title="map showing the location" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-    <!-- Footer Section-->
-    <footer>
-        <div id="actionCall">
-            <form action="https://formdump.codeinstitute.net/" method="post">
-                <label for="subscribe">Subscribe to our Newsletter:</label>
-                <input id="subscribe" type="email" name="subscribe" placeholder="Enter your Email" required>
-                <button type="submit" id="subscribeBtn">Submit</button>
-            </form>
-        </div>
-
-        <ul id="socialLinks">
-            <li>
-               <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-        </ul>
-
-        <div id="copyright">
-            <p>
-                 <i class="fa-regular fa-copyright"></i>  BelovedPearl 2023
-            </p>
-        </div>
-    </footer>
-    
-<script src="https://kit.fontawesome.com/68d4741fb5.js" crossorigin="anonymous"></script>
-</body>
+        <script
+            src="https://kit.fontawesome.com/68d4741fb5.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
