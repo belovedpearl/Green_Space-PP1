@@ -2,6 +2,13 @@
 
 [View code here](https://github.com/belovedpearl/Green_Space-PP1)
 
+![Responsiveness](assets/presentation/sitepresentation.webp)
+
+[View site responsiveness here](https://ui.dev/amiresponsive?url=%20https://belovedpearl.github.io/Green_Space-PP1/)
+
+
+---
+
 **Table of Contents:**
 ---
 ---
