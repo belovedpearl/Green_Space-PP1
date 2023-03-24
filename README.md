@@ -487,6 +487,8 @@ The live link can be found [here](https://belovedpearl.github.io/Green_Space-PP1
 
   * [Fonts](https://fonts.google.com/)
 
+  * [Prettier](https://prettier.io/playground/)
+
   * [Map](https://www.embedgooglemap.net/locationChester)
 
 
@@ -596,6 +598,8 @@ On all html pages, some issues were found during the check over [W3C Validator c
 * [ReadMe Table Inspiration](https://github.com/choyoon88/louquiz/edit/main/README.md)
 
 * [Code institute's template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+* [Main Page Animation Slides](https://youtu.be/FrQR7igd9bs)
 
 * [Learinng more about flex](https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/).
 
