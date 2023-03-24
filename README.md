@@ -536,6 +536,8 @@ On all html pages, some issues were found during the check over [W3C Validator c
     * Best Practices = 92
     * SEO = 100
 
+![Home page lighthouse report](assets/presentation/homecheck.webp)
+
 * Service Page: 
     * Performance = 96 
     * Accessibility = 95
